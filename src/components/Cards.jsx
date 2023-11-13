@@ -1,6 +1,9 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { RiMedalLine } from "react-icons/ri";
+import { RiBriefcase5Fill } from "react-icons/ri";
+import { RiRouteLine } from "react-icons/ri";
+import { RiMoneyDollarCircleFill } from "react-icons/ri";
 
 export const Cards = () => {
   return (
@@ -34,7 +37,7 @@ export const Cards = () => {
           </Card.Body>
         </Card>
         <Card className="col-lg-3 col-md-12">
-        <RiMedalLine className="cardIcons"/>
+        <RiBriefcase5Fill className="cardIcons"/>
           <Card.Body>
             <Card.Title>Experiencia</Card.Title>
             <Card.Text className="cardDescription">
@@ -45,7 +48,7 @@ export const Cards = () => {
           </Card.Body>
         </Card>
         <Card className="col-lg-3 col-md-12">
-        <RiMedalLine className="cardIcons"/>
+        <RiRouteLine className="cardIcons"/>
           <Card.Body >
             <Card.Title>Adaptabilidad</Card.Title>
             <Card.Text className="cardDescription">
@@ -56,7 +59,7 @@ export const Cards = () => {
           </Card.Body>
         </Card>
         <Card className="col-lg-3 col-md-12">
-        <RiMedalLine className="cardIcons"/>
+        <RiMoneyDollarCircleFill className="cardIcons"/>
           <Card.Body>
             <Card.Title>Economico</Card.Title>
             <Card.Text className="cardDescription">
