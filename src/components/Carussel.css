@@ -1,6 +1,7 @@
 .CarusselImg {
     width: 100%;
     height: calc(100vh - 150px);
+    filter:brightness(80%);
 }
 .CarusselH3 {
     color: #962424;

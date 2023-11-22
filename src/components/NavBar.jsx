@@ -9,11 +9,21 @@ export const NavBar = () => {
         <img className="img2" src={Logo} alt="Logo 2 de Arcotechos" />
       </div>
       <ul className="menu">
-        <li>Inicio</li>
-        <li><a href="#Soluciones">Soluciones</a></li>
-        <li><a href="#Nosotros">Nosotros</a></li>
-        <li>Galeria</li>
-        <li><a href="#Contacto">Contacto</a></li>
+        <li>
+          <a href="/">Inicio</a>
+        </li>
+        <li>
+          <a href="#Soluciones">Soluciones</a>
+        </li>
+        <li>
+          <a href="#Nosotros">Nosotros</a>
+        </li>
+        <li>
+          <a href="#Nosotros">Galeria</a>
+        </li>
+        <li>
+          <a href="#Contacto">Contacto</a>
+        </li>
       </ul>
     </div>
   );

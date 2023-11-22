@@ -12,11 +12,16 @@ export const Contactanos = () => {
         <li>Mínimo para Cotizar 150 m²</li>
         <BsFillTelephoneFill />
         <li>
-          <a href="tel:2222367188">(222) 236 71 88</a>
+          <a className="colorWhite" href="tel:2222367188">
+            (222) 236 71 88
+          </a>
         </li>
         <BsFillEnvelopeFill />
         <li>
-          <a href="mailto:ventas@techoscurvos.com?subject=¡Gracias por contactarnos!">
+          <a
+            className="colorWhite"
+            href="mailto:ventas@techoscurvos.com?subject=¡Gracias por contactarnos!"
+          >
             ventas@techoscurvos.com
           </a>
         </li>
@@ -25,7 +30,7 @@ export const Contactanos = () => {
           <BsFacebook />
         </a>
       </ul>
-      <button><a href="#Contacto">¡Contactanos!</a></button>
+      <button>¡Contactanos!</button>
     </div>
   );
 };
