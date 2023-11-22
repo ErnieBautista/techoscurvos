@@ -47,18 +47,23 @@
   display: none;
 }
 
+.beneficiosDescripcion {
+  min-height: 12vh;
+}
+
 .BeneficiosImg {
   width: 100%;
-  right: 0;
-  height: 350px;
+  height: 35vh;
 }
 
 .BeneficiosImg2 {
   width: 50%;
+  height: 35vh;
   right: 0;
 }
 
 .BeneficiosImg3 {
   width: 50%;
+  height: 35vh;
   left: 0;
 }

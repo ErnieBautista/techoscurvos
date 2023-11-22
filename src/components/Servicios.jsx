@@ -1,7 +1,7 @@
 export const Servicios = () => {
   return (
-    <div className="bienvenida">
-      <h2>Soluciones</h2>
+    <div className="bienvenida" id="Soluciones">
+      <h2 className="h2Soluciones" >Soluciones</h2>
       <hr />
       <p>
         Duis tincidunt ipsum a risus elementum fringilla. Fusce congue mauris

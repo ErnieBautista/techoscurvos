@@ -1,11 +1,11 @@
 import { Contactanos } from "./components/Contactanos";
 import { NavBar } from "./components/NavBar";
-import { Bienvenida } from "./components/Bienvenida";
 import { Beneficios } from "./components/Beneficios";
 import { Servicios } from "./components/Servicios";
 import { Cards } from "./components/Cards";
-import Testimonios from "./components/Testimonios";
+import { Nosotros } from "./components/Nosotros";
 import {Carrusel} from "./components/Carrusel";
+import { Footer } from "./components/Footer"
 
 export const TechosCurvos = () => {
   // Second Commit 
@@ -15,13 +15,15 @@ export const TechosCurvos = () => {
       <NavBar />
       <Carrusel />
       <div className="container">
-        <Bienvenida />
         <br />
         <br />
         <Servicios />
         <Beneficios />
         <Cards />
-        <Testimonios />
+      </div>
+      <div>
+      <Nosotros/>
+      <Footer/>
       </div>
     </div>
   );
