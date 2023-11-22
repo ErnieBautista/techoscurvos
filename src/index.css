@@ -33,6 +33,16 @@ body {
   width: 100vw;
 }
 
+h1 {
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+
+h2 {
+  text-align: center;
+}
+
 .contactanos{
   background-color: var(--azul);
   height: 35px;
@@ -90,6 +100,10 @@ body {
   display: flex;
   justify-content: space-between;
   z-index: 3;
+}
+
+.h2Soluciones {
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -167,6 +181,7 @@ body {
 }
 
 
+
 .cardIcons {
   font-size: 100px;
   width: 100%;
@@ -176,8 +191,54 @@ body {
 
 @media (min-width: 768px) {
   .cardDescription {
-    height: 120px;
-    
+    height: 120px; 
   }
-  
+}
+
+.nosotrosCol {
+  text-align: center;
+  margin: 80px;
+}
+
+.Nosotros {
+  background-image: url(../src/assets/imgs/arcotechos.jpg);
+  min-height: 100vh; 
+  min-width: 100vh;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.nosotrosh1 {
+  color: #962424;
+}
+
+.nosotrosTexto {
+  color: #962424;
+}
+
+.footerh1 {
+  padding: 35px;
+}
+
+.iconWA {
+  font-size: 25px;
+  color: #11BA17;
+}
+
+.iconFB {
+  font-size: 60px;
+  margin: 0;
+}
+
+.iconsRedes {
+  padding: 0, 80px;
+}
+
+#igIcon {
+    color: #fff;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }

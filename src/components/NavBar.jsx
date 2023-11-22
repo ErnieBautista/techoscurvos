@@ -10,10 +10,10 @@ export const NavBar = () => {
       </div>
       <ul className="menu">
         <li>Inicio</li>
-        <li>Servicio</li>
-        <li>Nosotros</li>
+        <li><a href="#Soluciones">Soluciones</a></li>
+        <li><a href="#Nosotros">Nosotros</a></li>
         <li>Galeria</li>
-        <li>Contacto</li>
+        <li><a href="#Contacto">Contacto</a></li>
       </ul>
     </div>
   );

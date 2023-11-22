@@ -1,4 +1,3 @@
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { RiMedalLine } from "react-icons/ri";
 import { RiBriefcase5Fill } from "react-icons/ri";
@@ -30,10 +29,8 @@ export const Cards = () => {
           <Card.Body>
             <Card.Title>Calidad</Card.Title>
             <Card.Text className="cardDescription">
-              Some quick example text to build on the card title and make up the
-              bulk of the cards content.
+              Unicamente trabajamos con material de primera
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
           </Card.Body>
         </Card>
         <Card className="col-lg-3 col-md-12">
@@ -44,7 +41,6 @@ export const Cards = () => {
               Some quick example text to build on the card title and make up the
               bulk of.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
           </Card.Body>
         </Card>
         <Card className="col-lg-3 col-md-12">
@@ -55,7 +51,6 @@ export const Cards = () => {
               Some quick example text to build on the card title and make up the
               bulk of the cards content the cards content.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
           </Card.Body>
         </Card>
         <Card className="col-lg-3 col-md-12">
@@ -66,7 +61,6 @@ export const Cards = () => {
               Some quick example text to build on the card title and make up the
               bulk of the cards content.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
           </Card.Body>
         </Card>
         </div>

@@ -37,40 +37,40 @@ export const Beneficios = () => {
           <Col sm={8}>
             <Tab.Content>
               <Tab.Pane eventKey="#link1" className="px-5">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                  tincidunt, elit id congue scelerisque, metus turpis aliquet
+                <p className="beneficiosDescripcion" >
+                  La combinación de experiencia, habilidad técnica y un enfoque centrado en el cliente nos posiciona como líderes indiscutibles en la industria de techos curvos, ofreciendo soluciones que tienen la mejor relacion <strong>costo-beneficio</strong>.
                 </p>
-                <img className="BeneficiosImg" src={Arcotecho6} alt="" />
+                <img className="BeneficiosImg" src={Arcotecho6} alt="Techo sin estructura" />
               </Tab.Pane>
               <Tab.Pane eventKey="#link2" className="px-5">
-                <p>
+                <p className="beneficiosDescripcion">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
                   tincidunt, elit id congue scelerisque, metus turpis aliquet
                 </p>
                 <img className="BeneficiosImg" src={Arcotecho5} alt="" />
               </Tab.Pane>
               <Tab.Pane eventKey="#link3" className="px-5">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                  tincidunt, elit id congue scelerisque, metus turpis aliquet
+                <p  className="beneficiosDescripcion">
+                  Nuestros trabajos son diseñados y calculados con apego a NTC-DF2004 y al  Manual de Diseño por Viento de CFE Vigente.
                 </p>
                 <img className="BeneficiosImg" src={CalculoEsctructural} alt="" />
               </Tab.Pane>
               <Tab.Pane eventKey="#link4" className="px-5">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                  tincidunt, elit id congue scelerisque, metus turpis aliquet
+              <p  className="beneficiosDescripcion">
+                  Haz click <a href="https://www.laminasenpuebla.com/" target="_new">aqui</a> si unicamente te interesa comprar laminas.
                 </p>
+                <a href="https://www.laminasenpuebla.com/" target="_new">
                 <img className="BeneficiosImg2" src={LaminaKR18} alt="" />
                 <img className="BeneficiosImg3" src={LaminaRN100} alt="" />
+                </a>
               </Tab.Pane>
               <Tab.Pane eventKey="#link5" className="px-5">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                  tincidunt, elit id congue scelerisque, metus turpis aliquet
+                <p  className="beneficiosDescripcion">
+                  Haz click <a href="https://www.maquinasuperspan.com/" target="_new">aqui</a> para la renta de maquina.
                 </p>
+                <a href="https://www.maquinasuperspan.com/" target="_new">
                 <img className="BeneficiosImg" src={MaquinaGif} alt="" />
+                </a>
               </Tab.Pane>
             </Tab.Content>
           </Col>
