@@ -16,7 +16,7 @@ export const Carrusel = () => {
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
             <h2 className="CarusselH3">Bienvenidos a TechosCurvos.Com</h2>
-            <p>
+            <p  className="CarusselText">
               Especialistas en la fabricacion de estructuras de acero
             </p>
             <Button className="CarusselButton" variant="danger">
@@ -30,7 +30,7 @@ export const Carrusel = () => {
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
             <h2 className="CarusselH3">Protegemos tu inversion</h2>
-            <p>
+            <p  className="CarusselText">
               Materializamos tus proyectos protegiendo tu inversion
             </p>
             <br />
@@ -49,7 +49,7 @@ export const Carrusel = () => {
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
             <h2 className="CarusselH3">Tenemos experiencia</h2>
-            <p>
+            <p  className="CarusselText">
               Nos distinguimos por nuestra vasta experiencia en la creación y
               ejecución de techos curvos. Con años de trayectoria en el sector,
               hemos perfeccionado la técnica y la metodología para diseñar e
@@ -91,9 +91,9 @@ export const Carrusel = () => {
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
             <h2 className="CarusselH3">Trabajamos en toda la republica</h2>
-            <p>
+            <p  className="CarusselText">
               Realizamos espacios de uso comercial, industrial, mixtos y de
-              servicios para la infrastructura en Mexico{" "}
+              servicios para la infrastructura en Mexico
             </p>
             <br />
             <Button className="CarusselButton" variant="danger">

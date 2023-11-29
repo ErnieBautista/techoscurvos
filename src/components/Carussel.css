@@ -8,13 +8,11 @@
 }
 
 .CarusselText {
-    position: relative;
-    top: 50%;
-    left: 50%;
+    font-size: x-large;
 }
 
 #estructuraTexto {
-    color: white;
+    font-size: large;
 }
 
 .CarusselButton {

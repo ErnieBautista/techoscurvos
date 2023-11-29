@@ -56,16 +56,16 @@ export const Galeria = () => {
         <Row>
           <Col sm={2}>
             <ListGroup>
-              <ListGroup.Item action href="#link1">
+              <ListGroup.Item variant="dark" action href="#link1">
                 Arcotechos sobre barda
               </ListGroup.Item>
-              <ListGroup.Item action href="#link2">
+              <ListGroup.Item variant="dark" action href="#link2">
                 Arcotechos sobre columnas
               </ListGroup.Item>
-              <ListGroup.Item action href="#link3">
+              <ListGroup.Item variant="dark" action href="#link3">
                 Techos de dos aguas y estructuras metalicas
               </ListGroup.Item>
-              <ListGroup.Item action href="#link4">
+              <ListGroup.Item variant="dark" action href="#link4">
                 Timpanos
               </ListGroup.Item>
             </ListGroup>
