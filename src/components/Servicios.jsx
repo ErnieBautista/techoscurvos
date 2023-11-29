@@ -1,15 +1,18 @@
 export const Servicios = () => {
   return (
     <div className="bienvenida" id="Soluciones">
-      <h2 className="h2Soluciones" >Soluciones</h2>
+      <h2 className="h2Soluciones">Soluciones</h2>
       <hr />
       <p>
-        Duis tincidunt ipsum a risus elementum fringilla. Fusce congue mauris
-        suscipit, porttitor felis eu, aliquet justo. Integer sit amet ligula nec
-        dolor vestibulum suscipit vel eu lorem. Nam maximus nisi mauris. Ut nec
-        blandit enim. Morbi pellentesque molestie lacinia. Vestibulum porttitor
-        enim et eros feugiat, quis volutpat felis imperdiet. Donec risus quam,
-        imperdiet nec magna in, cursus rutrum lorem. Etiam eu placerat est, eu
+        Ahora, descubre cómo materializamos esa pasión en una variedad de
+        servicios diseñados para satisfacer tus necesidades específicas. Desde
+        diseño innovador hasta instalación experta, nuestros servicios están
+        aquí para convertir tus proyectos en realidades sólidas. ¡Explora
+        nuestras ofertas y descubre cómo podemos llevar tus ideas más allá de
+        las expectativas! /// ¡Descubre nuestra gama completa de servicios de
+        arcotechos! Desde diseño innovador hasta instalación experta, estamos
+        aquí para cubrir todas tus necesidades. Explora cómo podemos llevar tus
+        proyectos al siguiente nivel.
       </p>
     </div>
   );

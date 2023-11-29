@@ -9,6 +9,11 @@ import CalculoEsctructural from "../assets/imgs/Calculo estructural.jpg";
 import LaminaKR18 from "../assets/imgs/Lamina KR-18.jpg";
 import LaminaRN100 from "../assets/imgs/Lamina RN-100.webp";
 import MaquinaGif from "../assets/imgs/Maquina.gif";
+import { SiArchicad } from "react-icons/si";
+import { GiMetalBar } from "react-icons/gi";
+import { AiFillCalculator } from "react-icons/ai"; 
+import { GiRolledCloth } from "react-icons/gi";
+import { GiFactoryArm } from "react-icons/gi";
 import { useEffect, useState } from "react";
 
 export const Beneficios = () => {
@@ -31,20 +36,20 @@ export const Beneficios = () => {
         <Row>
           <Col sm={4}>
             <ListGroup>
-              <ListGroup.Item action href="#link1">
-                Arcotechos
+              <ListGroup.Item variant="dark" action href="#link1">
+                <SiArchicad className="serviciosIcon"/> Arcotechos 
               </ListGroup.Item>
-              <ListGroup.Item action href="#link2">
-                Estructuras metalicas
+              <ListGroup.Item variant="dark" action href="#link2">
+                <GiMetalBar className="serviciosIcon" /> Estructuras metalicas 
               </ListGroup.Item>
-              <ListGroup.Item action href="#link3">
-                Calculos estructurales
+              <ListGroup.Item variant="dark" action href="#link3">
+               <AiFillCalculator className="serviciosIcon" /> Calculos estructurales 
               </ListGroup.Item>
-              <ListGroup.Item action href="#link4">
-                Laminas
+              <ListGroup.Item variant="dark" action href="#link4">
+                <GiRolledCloth className="serviciosIcon" /> Laminas 
               </ListGroup.Item>
-              <ListGroup.Item action href="#link5">
-                Renta de maquina
+              <ListGroup.Item variant="dark" action href="#link5">
+                <GiFactoryArm className="serviciosIcon" /> Renta de maquina 
               </ListGroup.Item>
             </ListGroup>
           </Col>

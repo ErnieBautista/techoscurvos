@@ -51,6 +51,11 @@
   text-align: center;
 }
 
+.serviciosIcon{
+  font-size: xx-large;
+  color: #962424;
+}
+
 .beneficiosDescripcion {
   min-height: 12vh;
 }
