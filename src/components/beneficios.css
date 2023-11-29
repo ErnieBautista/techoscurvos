@@ -47,6 +47,10 @@
   display: none;
 }
 
+#Beneficios {
+  text-align: center;
+}
+
 .beneficiosDescripcion {
   min-height: 12vh;
 }

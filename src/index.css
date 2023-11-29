@@ -177,8 +177,14 @@ h2 {
   width: 80%;
   margin: 0 auto;
 }
+
+.containerCards {
+  padding: 5% 20%;
+  background-color: #575756;
+  color: white;
+}
+
 .bienvenida h2{
-  color: var(--rojo);
   font-size: 50px;
   margin: 15px 0;
 }
@@ -191,12 +197,18 @@ h2 {
 }
 
 
-
 .cardIcons {
-  font-size: 100px;
+  font-size: 200px;
   width: 100%;
   margin: 50px 0;
   color: #962424;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.6));
+} 
+
+.cardBody {
+  text-align: center;
+  min-height: 60%;
+
 }
 
 @media (min-width: 768px) {
@@ -205,9 +217,14 @@ h2 {
   }
 }
 
+#Nosotros {
+  text-align: center;
+}
+
 .nosotrosCol {
   text-align: center;
   margin: 80px;
+  background-color: #962424;
 }
 
 .Nosotros {
@@ -226,6 +243,15 @@ h2 {
 }
 
 .nosotrosTexto {
+  color: rgba(255, 255, 255, 0.757);
+}
+
+.nosotrosImg {
+  width: 90%;
+  height: 400px;
+}
+
+#Contacto {
   color: #962424;
 }
 
@@ -238,17 +264,15 @@ h2 {
   color: #11BA17;
 }
 
-.iconFB {
-  font-size: 60px;
-  margin: 0;
+.redesFooter {
+  font-size: 50px;
+  text-align: center;
 }
 
-.iconsRedes {
-  padding: 0, 80px;
-}
-
-#igIcon {
-    color: #fff;
-  background: #d6249f;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+.iconIG {
+  color: white  ;
+  width: 36px;
+  height: 36px;
+  border-radius: 20%;
+  background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf)
 }

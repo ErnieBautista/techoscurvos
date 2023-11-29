@@ -16,7 +16,7 @@ export const Carrusel = () => {
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
             <h2 className="CarusselH3">Bienvenidos a TechosCurvos.Com</h2>
-            <p className="CarusselTex">
+            <p>
               Especialistas en la fabricacion de estructuras de acero
             </p>
             <Button className="CarusselButton" variant="danger">
@@ -30,7 +30,7 @@ export const Carrusel = () => {
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
             <h2 className="CarusselH3">Protegemos tu inversion</h2>
-            <p className="CarusselTex">
+            <p>
               Materializamos tus proyectos protegiendo tu inversion
             </p>
             <br />
@@ -49,7 +49,7 @@ export const Carrusel = () => {
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
             <h2 className="CarusselH3">Tenemos experiencia</h2>
-            <p className="CarusselTex">
+            <p>
               Nos distinguimos por nuestra vasta experiencia en la creación y
               ejecución de techos curvos. Con años de trayectoria en el sector,
               hemos perfeccionado la técnica y la metodología para diseñar e
@@ -71,11 +71,10 @@ export const Carrusel = () => {
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
             <h2 className="CarusselH3">Estamos comprometidos</h2>
-            <p className="CarusselTex">
-              Nuestra experiencia, habilidad técnica y un enfoque centrado en el
-              cliente nos posiciona como líderes en la industria de techos
-              curvos
-            </p>
+            <strong id="estructuraTexto">
+              Lo que nos distingue en el mercado es nuestro compromiso con la excelencia en cada paso del proceso.
+              Desde la selección cuidadosa de materiales hasta la entrega oportuna de productos y servicios, nos esforzamos por superar las expectativas de nuestros clientes.
+            </strong>
             <br />
             <Button className="CarusselButton" variant="danger">
               Contactanos

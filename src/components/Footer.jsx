@@ -7,7 +7,7 @@ import FloatingLabel from "react-bootstrap/FloatingLabel";
 import { RiWhatsappLine } from "react-icons/ri";
 import { RiFacebookBoxFill } from "react-icons/ri";
 import { RiFacebookCircleFill } from "react-icons/ri";
-import { RiInstagramFill } from "react-icons/ri";
+import { FaInstagram } from "react-icons/fa";
 import { RiLinkedinFill } from "react-icons/ri";
 import { RiMailSendFill } from "react-icons/ri";
 
@@ -54,7 +54,7 @@ export const Footer = () => {
                       label="Nombre"
                       className="mb-3"
                     >
-                      <Form.Control placeholder="Nombre" />
+                      <Form.Control/>
                     </FloatingLabel>
                   </Col>
                   <Col>
@@ -63,7 +63,7 @@ export const Footer = () => {
                       label="Apellido"
                       className="mb-3"
                     >
-                      <Form.Control placeholder="Apellido" />
+                      <Form.Control/>
                     </FloatingLabel>
                   </Col>
                 </Row>
@@ -72,14 +72,14 @@ export const Footer = () => {
                   label="Correo electronico"
                   className="mb-3"
                 >
-                  <Form.Control type="email" placeholder="nombre@ejemplo.com" />
+                  <Form.Control type="email"/>
                 </FloatingLabel>
                 <FloatingLabel
                   controlId="floatingInput"
                   label="Telefono"
                   className="mb-3"
                 >
-                  <Form.Control placeholder="1234567890" />
+                  <Form.Control/>
                 </FloatingLabel>
                 <Row>
                   <Col>
@@ -88,7 +88,7 @@ export const Footer = () => {
                       label="Ancho"
                       className="mb-3"
                     >
-                      <Form.Control placeholder="Nombre" />
+                      <Form.Control/>
                     </FloatingLabel>
                   </Col>
                   <Col>
@@ -97,16 +97,16 @@ export const Footer = () => {
                       label="Profundidad"
                       className="mb-3"
                     >
-                      <Form.Control placeholder="Apellido" />
+                      <Form.Control/>
                     </FloatingLabel>
                   </Col>
                 </Row>
                 <FloatingLabel
                   controlId="floatingInput"
-                  label="Comentarios adicionales"
+                  label="Ciudad o municipio"
                   className="mb-3"
                 >
-                  <Form.Control placeholder="Asegurese de incluir ancho y profundidad de" />
+                  <Form.Control/>
                 </FloatingLabel>
               </Form.Group>
               <Button variant="primary" type="submit">
@@ -142,10 +142,10 @@ export const Footer = () => {
         </Row>
       </Container>
       <div className="redesFooter">
-        <a href="http://www.facebook.com/techoscurvoss" className="iconsRedes"><RiFacebookCircleFill /></a>
-        <a href="https://www.instagram.com/techoscurvos/?hl=es" id="igIcon" className="iconsRedes"><RiInstagramFill /></a>
-        <a href="https://mx.linkedin.com/company/techos-curvos-com " className="iconsRedes"><RiLinkedinFill /></a>
-        <a href="ventas@techoscurvos.com"><RiMailSendFill /></a>
+        <a href="http://www.facebook.com/techoscurvoss" className="mx-3"><RiFacebookCircleFill /></a>
+        <a href="https://www.instagram.com/techoscurvos/?hl=es" className="iconIG mx-3"><FaInstagram /></a>
+        <a href="https://mx.linkedin.com/company/techos-curvos-com " className="mx-3"><RiLinkedinFill /></a>
+        <a href="mailto:ventas@techoscurvos.com?subject=¡Gracias por contactarnos!" className="mx-3"><RiMailSendFill /></a>
       </div>
     </div>
   );
