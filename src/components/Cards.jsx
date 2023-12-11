@@ -9,16 +9,10 @@ export const Cards = () => {
     <div className="bienvenida">
       <h2>Beneficios</h2>
       <hr />
-      <p>
+      <p className="text-center">
         Descubre los beneficios de elegirnos para tus proyectos de arcotechos.
-        Desde soluciones personalizadas hasta calidad garantizada, estamos
-        comprometidos a ofrecerte ventajas que van más allá de nuestros
-        servicios. Explora cómo trabajar con nosotros puede maximizar el éxito
-        de tus proyectos. /// Descubre los beneficios de elegirnos para tus
-        proyectos de arcotechos. Desde atención personalizada hasta calidad
-        garantizada, te ofrecemos más que servicios: ventajas tangibles que
-        hacen la diferencia. Explora cómo nuestra experiencia y compromiso
-        pueden beneficiar tu proyecto.
+        Explora cómo trabajar con nosotros puede maximizar el éxito
+        de tus obras.
       </p>
       <div className="d-flex justify-content-evenly mt-5 container">
         <div className="row">
@@ -27,7 +21,7 @@ export const Cards = () => {
             <Card.Body className="cardBody">
               <Card.Title>Calidad</Card.Title>
               <Card.Text className="cardDescription">
-                Sólo manejamos láminas de calidad certificadas, priorizando la
+                Sólo manejamos materiales de calidad certificada, priorizando la
                 correcta aplicación de los recursos para garantizar la
                 satisfacción de nuestros clientes.
               </Card.Text>

@@ -123,17 +123,19 @@ export const Footer = () => {
             <br />
 
             <p>
-              {" "}
-              <RiWhatsappLine className="iconWA" /> Whatsapp:
+              <a href="https://api.whatsapp.com/send?phone=5212224397551&text=Hola,%20quiero%20una%20cotizaci%C3%B3n%20por%20favor" target="_new">
+                <RiWhatsappLine className="iconWA" />
+              </a>
+              Whatsapp:
             </p>
-            <a href="tel:2222367188">222 439 75 51</a>
+            <a href="https://api.whatsapp.com/send?phone=5212224397551&text=Hola,%20quiero%20una%20cotizaci%C3%B3n%20por%20favor" target="_new">222 439 75 51</a>
             <br />
             <a href="http://bit.ly/tecotizamosya" target="_new">
               http://bit.ly/tecotizamosya
             </a>
             <br />
             <h3>El día a día de nuestras obras están en Facebook:</h3>
-            <a href="http://www.facebook.com/techoscurvoss">
+            <a href="http://www.facebook.com/techoscurvoss" target="_new">
               <RiFacebookBoxFill className="iconFB" />
             </a>
             <br />
@@ -142,9 +144,9 @@ export const Footer = () => {
         </Row>
       </Container>
       <div className="redesFooter">
-        <a href="http://www.facebook.com/techoscurvoss" className="mx-3"><RiFacebookCircleFill /></a>
-        <a href="https://www.instagram.com/techoscurvos/?hl=es" className="iconIG mx-3"><FaInstagram /></a>
-        <a href="https://mx.linkedin.com/company/techos-curvos-com " className="mx-3"><RiLinkedinFill /></a>
+        <a href="http://www.facebook.com/techoscurvoss" target="_new" className="mx-3"><RiFacebookCircleFill /></a>
+        <a href="https://www.instagram.com/techoscurvos/?hl=es" target="_new" className="iconIG mx-3"><FaInstagram /></a>
+        <a href="https://mx.linkedin.com/company/techos-curvos-com " target="_new" className="mx-3"><RiLinkedinFill /></a>
         <a href="mailto:ventas@techoscurvos.com?subject=¡Gracias por contactarnos!" className="mx-3"><RiMailSendFill /></a>
       </div>
     </div>
