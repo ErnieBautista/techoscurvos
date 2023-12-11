@@ -5,7 +5,7 @@ import "./Carussel.css";
 import Arcotecho1 from "../assets/imgs/Arcotecho despues 2 23-10-2023.jpg";
 import Arcotecho2 from "../assets/imgs/Arcotecho despues 10 2-9-2023.jpg";
 import Arcotecho3 from "../assets/imgs/Arcotecho Queretaro despues.jpg";
-import EstructuraMetalica from "../assets/imgs/Techo despues 5 25-9-2023.jpg";
+import EstructuraMetalica from "../assets/imgs/Estructura metalica PBL.jpg";
 import BanderaMexico from "../assets/imgs/mexico.jpg";
 
 export const Carrusel = () => {
@@ -15,7 +15,7 @@ export const Carrusel = () => {
         <img className="CarusselImg" src={Arcotecho1} alt="Techo curvo" />
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
-            <h2 className="CarusselH3">Bienvenidos a TechosCurvos.Com</h2>
+            <h2>Bienvenidos a TechosCurvos.Com</h2>
             <p  className="CarusselText">
               Especialistas en la fabricacion de estructuras de acero
             </p>
@@ -29,9 +29,9 @@ export const Carrusel = () => {
         <img className="CarusselImg" src={Arcotecho2} alt="Arcotecho" />
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
-            <h2 className="CarusselH3">Protegemos tu inversion</h2>
+            <h2>Materializamos tus proyectos</h2>
             <p  className="CarusselText">
-              Materializamos tus proyectos protegiendo tu inversion
+              Materializamos tus proyectos protegiendo tu inversion.
             </p>
             <br />
             <Button className="CarusselButton" variant="danger">
@@ -48,11 +48,9 @@ export const Carrusel = () => {
         />
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
-            <h2 className="CarusselH3">Tenemos experiencia</h2>
+            <h2>Tenemos experiencia</h2>
             <p  className="CarusselText">
-              Nos distinguimos por nuestra vasta experiencia en la creación y
-              ejecución de techos curvos. Con años de trayectoria en el sector,
-              hemos perfeccionado la técnica y la metodología para diseñar e
+              Hemos perfeccionado la técnica y la metodología para diseñar e
               instalar techos curvos de alta calidad.
             </p>
             <br />
@@ -70,11 +68,12 @@ export const Carrusel = () => {
         />
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
-            <h2 className="CarusselH3">Estamos comprometidos</h2>
-            <strong id="estructuraTexto">
-              Lo que nos distingue en el mercado es nuestro compromiso con la excelencia en cada paso del proceso.
-              Desde la selección cuidadosa de materiales hasta la entrega oportuna de productos y servicios, nos esforzamos por superar las expectativas de nuestros clientes.
-            </strong>
+            <h2 className="carruselEstructura fs-1">
+              Estamos comprometidos
+              </h2>
+            <p className="carruselEstructura fs-4">
+              Desde la selección cuidadosa de materiales hasta la entrega de nuestros productos y servicios, nos esforzamos por superar las expectativas de nuestros clientes.
+            </p>
             <br />
             <Button className="CarusselButton" variant="danger">
               Contactanos
@@ -90,10 +89,9 @@ export const Carrusel = () => {
         />
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
-            <h2 className="CarusselH3">Trabajamos en toda la republica</h2>
-            <p  className="CarusselText">
-              Realizamos espacios de uso comercial, industrial, mixtos y de
-              servicios para la infrastructura en Mexico
+            <h2 className="carruselMex fs-2">Trabajamos en toda la republica</h2>
+            <p className="carruselMex fs-5">
+              Realizamos espacios de uso comercial, industrial y mixtos para toda la republica.
             </p>
             <br />
             <Button className="CarusselButton" variant="danger">

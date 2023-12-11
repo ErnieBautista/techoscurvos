@@ -26,11 +26,11 @@ export const Contactanos = () => {
           </a>
         </li>
 
-        <a href="https://www.facebook.com/techoscurvoss">
+        <a href="https://www.facebook.com/techoscurvoss" target="_new">
           <BsFacebook />
         </a>
       </ul>
-      <button>¡Contactanos!</button>
+      <button ><a className="colorWhite" href="#Contacto">¡Contactanos!</a></button>
     </div>
   );
 };

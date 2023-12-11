@@ -5,7 +5,7 @@ import Tab from "react-bootstrap/Tab";
 import "./beneficios.css";
 import Arcotecho5 from "../assets/imgs/Techo despues 3 22-10-2023.jpg";
 import Arcotecho6 from "../assets/imgs/Arcotecho despues 4 6-10-2023.jpg";
-import CalculoEsctructural from "../assets/imgs/Calculo estructural.jpg";
+import CalculoEsctructural from "../assets/imgs/Calculo estructural 2.png";
 import LaminaKR18 from "../assets/imgs/Lamina KR-18.jpg";
 import LaminaRN100 from "../assets/imgs/Lamina RN-100.webp";
 import MaquinaGif from "../assets/imgs/Maquina.gif";
@@ -36,19 +36,19 @@ export const Beneficios = () => {
         <Row>
           <Col sm={4}>
             <ListGroup>
-              <ListGroup.Item variant="dark" action href="#link1">
+              <ListGroup.Item variant="secondary" action href="#link1">
                 <SiArchicad className="serviciosIcon"/> Arcotechos 
               </ListGroup.Item>
-              <ListGroup.Item variant="dark" action href="#link2">
+              <ListGroup.Item variant="secondary" action href="#link2">
                 <GiMetalBar className="serviciosIcon" /> Estructuras metalicas 
               </ListGroup.Item>
-              <ListGroup.Item variant="dark" action href="#link3">
+              <ListGroup.Item variant="secondary" action href="#link3">
                <AiFillCalculator className="serviciosIcon" /> Calculos estructurales 
               </ListGroup.Item>
-              <ListGroup.Item variant="dark" action href="#link4">
+              <ListGroup.Item variant="secondary" action href="#link4">
                 <GiRolledCloth className="serviciosIcon" /> Laminas 
               </ListGroup.Item>
-              <ListGroup.Item variant="dark" action href="#link5">
+              <ListGroup.Item variant="secondary" action href="#link5">
                 <GiFactoryArm className="serviciosIcon" /> Renta de maquina 
               </ListGroup.Item>
             </ListGroup>
@@ -96,8 +96,9 @@ export const Beneficios = () => {
               </Tab.Pane>
               <Tab.Pane eventKey="#link4" className="px-5">
                 <div className="beneficiosDescripcion">
-                  Ofrecemos una extensa gama de láminas de alta calidad que se
+                  Ofrecemos una extensa gama de láminas de altp desempeño estructural por su caracteristico traslape longitudinal engargolado que logra una junta homogenea que se 
                   adaptan a diversas aplicaciones y necesidades de construcción.
+                  <br />
                   Para comprar laminas, haz click <a href="https://www.laminasenpuebla.com/" target="_new">aqui!</a>
                 </div>
                 <a href="https://www.laminasenpuebla.com/" target="_new">
@@ -111,7 +112,9 @@ export const Beneficios = () => {
                   ofreciendo servicios de renta de máquinas roladoras. Nuestras
                   máquinas están diseñadas para ser eficientes y versátiles,
                   permitiéndote dar forma a las láminas de manera precisa y
-                  rápida. Haz click <a href="https://www.maquinasuperspan.com/" target="_new">aqui</a> o en la imagen!
+                  rápida. 
+                  <br />
+                  Haz click <a href="https://www.maquinasuperspan.com/" target="_new">aqui</a> o en la imagen!
                   </div>
                 <a href="https://www.maquinasuperspan.com/" target="_new">
                   <img className="BeneficiosImg" src={MaquinaGif} alt="" />
