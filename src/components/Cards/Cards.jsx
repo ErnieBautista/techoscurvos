@@ -9,9 +9,8 @@ import { Container } from "react-bootstrap";
 export const Cards = () => {
   return (
     <Container>
-      <h2>Beneficios</h2>
-      <hr />
-      <p className="text-center">
+      <h2 className="text-white">Beneficios</h2>
+      <p className="pt-3">
         Descubre los beneficios de elegirnos para tus proyectos de arcotechos.
         Explora cómo trabajar con nosotros puede maximizar el éxito de tus
         obras.

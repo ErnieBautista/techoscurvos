@@ -7,14 +7,7 @@ a{
 a:hover{
   color: white
 }
-.contactanos{
-  background-color: var(--azul);
-  height: 35px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-}
+
 .contactanos ul{
   margin: 0;
   display: flex;
@@ -48,8 +41,19 @@ a:hover{
   background-color: var(--gris);
   color: white;
 }
-
+.contactanos{
+  display: none;
+}
 @media (min-width: 768px) {
+  .contactanos{
+    background-color: var(--azul);
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
   .contactanos ul svg{
     font-size: 14px;
   }

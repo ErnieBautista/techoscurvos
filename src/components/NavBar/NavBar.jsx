@@ -20,10 +20,10 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="#home">
-          <div className="imagenes">
+          <Link to="/" className="imagenes">
             <img className="img1" src={Logo2} alt="Logo de Arcotechos" />
             <img className="img2" src={Logo} alt="Logo 2 de Arcotechos" />
-          </div>
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
