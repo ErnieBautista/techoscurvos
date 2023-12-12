@@ -4,6 +4,8 @@ import {
   BsFillEnvelopeFill,
   BsFacebook,
 } from "react-icons/bs";
+import "./contactanos.scss";
+
 export const Contactanos = () => {
   return (
     <div className="contactanos">
@@ -30,7 +32,11 @@ export const Contactanos = () => {
           <BsFacebook />
         </a>
       </ul>
-      <button ><a className="colorWhite" href="#Contacto">¡Contactanos!</a></button>
+      <button>
+        <a className="colorWhite" href="#Contacto">
+          ¡Contactanos!
+        </a>
+      </button>
     </div>
   );
 };

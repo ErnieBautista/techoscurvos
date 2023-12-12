@@ -1,12 +1,11 @@
 import Carousel from "react-bootstrap/Carousel";
 import Button from "react-bootstrap/Button";
-
-import "./Carussel.css";
-import Arcotecho1 from "../assets/imgs/Arcotecho despues 2 23-10-2023.jpg";
-import Arcotecho2 from "../assets/imgs/Arcotecho despues 10 2-9-2023.jpg";
-import Arcotecho3 from "../assets/imgs/Arcotecho Queretaro despues.jpg";
-import EstructuraMetalica from "../assets/imgs/Estructura metalica PBL.jpg";
-import BanderaMexico from "../assets/imgs/mexico.jpg";
+import Arcotecho1 from "../..//assets/imgs/Arcotecho despues 2 23-10-2023.jpg";
+import Arcotecho2 from "../../assets/imgs/Arcotecho despues 10 2-9-2023.jpg";
+import Arcotecho3 from "../../assets/imgs/Arcotecho Queretaro despues.jpg";
+import EstructuraMetalica from "../../assets/imgs/Estructura metalica PBL.jpg";
+import BanderaMexico from "../../assets/imgs/mexico.jpg";
+import "./carrusel.scss";
 
 export const Carrusel = () => {
   return (
@@ -16,7 +15,7 @@ export const Carrusel = () => {
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
             <h2>Bienvenidos a TechosCurvos.Com</h2>
-            <p  className="CarusselText">
+            <p className="CarusselText">
               Especialistas en la fabricacion de estructuras de acero
             </p>
             <Button className="CarusselButton" variant="danger">
@@ -30,7 +29,7 @@ export const Carrusel = () => {
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
             <h2>Materializamos tus proyectos</h2>
-            <p  className="CarusselText">
+            <p className="CarusselText">
               Materializamos tus proyectos protegiendo tu inversion.
             </p>
             <br />
@@ -49,7 +48,7 @@ export const Carrusel = () => {
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
             <h2>Tenemos experiencia</h2>
-            <p  className="CarusselText">
+            <p className="CarusselText">
               Hemos perfeccionado la técnica y la metodología para diseñar e
               instalar techos curvos de alta calidad.
             </p>
@@ -68,11 +67,11 @@ export const Carrusel = () => {
         />
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
-            <h2 className="carruselEstructura fs-1">
-              Estamos comprometidos
-              </h2>
+            <h2 className="carruselEstructura fs-1">Estamos comprometidos</h2>
             <p className="carruselEstructura fs-4">
-              Desde la selección cuidadosa de materiales hasta la entrega de nuestros productos y servicios, nos esforzamos por superar las expectativas de nuestros clientes.
+              Desde la selección cuidadosa de materiales hasta la entrega de
+              nuestros productos y servicios, nos esforzamos por superar las
+              expectativas de nuestros clientes.
             </p>
             <br />
             <Button className="CarusselButton" variant="danger">
@@ -89,9 +88,12 @@ export const Carrusel = () => {
         />
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
-            <h2 className="carruselMex fs-2">Trabajamos en toda la republica</h2>
+            <h2 className="carruselMex fs-2">
+              Trabajamos en toda la republica
+            </h2>
             <p className="carruselMex fs-5">
-              Realizamos espacios de uso comercial, industrial y mixtos para toda la republica.
+              Realizamos espacios de uso comercial, industrial y mixtos para
+              toda la republica.
             </p>
             <br />
             <Button className="CarusselButton" variant="danger">

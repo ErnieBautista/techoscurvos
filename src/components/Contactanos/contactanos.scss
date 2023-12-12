@@ -1,0 +1,70 @@
+a{
+  color: rgba(255, 255, 255, 0.704);
+  text-decoration: none;
+  transition: .5s;
+}
+
+a:hover{
+  color: white
+}
+.contactanos{
+  background-color: var(--azul);
+  height: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.contactanos ul{
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contactanos ul svg{
+  margin: 0;
+  color: var(--rojo);
+  font-size: 15px;
+}
+.contactanos ul li{
+  margin: 0;
+  margin-right: 15px;
+  color: white;
+  font-size: 7px;
+  list-style: none;
+  padding-left: 3px;
+}
+
+.contactanos button{
+  background-color: var(--rojo);
+  font-size: 10px;
+  height: 20px;
+  color: white;
+  border-radius: 3px;
+  transition: .3s ease-in-out;
+}
+
+.contactanos button:hover{
+  background-color: var(--gris);
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .contactanos ul svg{
+    font-size: 14px;
+  }
+  .contactanos ul li{
+    margin-right: 15px;
+    font-size: 12px;
+    padding-left: 5px;
+  }
+
+  .contactanos button{
+    font-size: 12px;
+    height: 25px;
+  }
+  .arcoTechos{
+    width: 100vw;
+    height: 90vh;
+  }
+}

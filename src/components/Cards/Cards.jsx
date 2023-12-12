@@ -4,15 +4,17 @@ import { RiBriefcase5Fill } from "react-icons/ri";
 import { RiRouteLine } from "react-icons/ri";
 import { RiMoneyDollarCircleFill } from "react-icons/ri";
 
+import "./cards.scss";
+import { Container } from "react-bootstrap";
 export const Cards = () => {
   return (
-    <div className="bienvenida">
+    <Container>
       <h2>Beneficios</h2>
       <hr />
       <p className="text-center">
         Descubre los beneficios de elegirnos para tus proyectos de arcotechos.
-        Explora cómo trabajar con nosotros puede maximizar el éxito
-        de tus obras.
+        Explora cómo trabajar con nosotros puede maximizar el éxito de tus
+        obras.
       </p>
       <div className="d-flex justify-content-evenly mt-5 container">
         <div className="row">
@@ -59,6 +61,6 @@ export const Cards = () => {
           </Card>
         </div>
       </div>
-    </div>
+    </Container>
   );
 };
