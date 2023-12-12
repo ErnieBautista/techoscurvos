@@ -1,6 +1,7 @@
 import ListGroup from "react-bootstrap/ListGroup";
 import Tab from "react-bootstrap/Tab";
 import Carousel from "react-bootstrap/Carousel";
+import Col from "react-bootstrap/Col";
 
 import "./galeria.css";
 import ArcotechoBarda1 from "../../assets/imgs/Galeria/Techos sobre barda/Techo sobre barda 1.jpg";
@@ -46,7 +47,7 @@ import Timpano9 from "../../assets/imgs/Galeria/Timpanos/Timpano 9.jpg";
 import Timpano10 from "../../assets/imgs/Galeria/Timpanos/Timpano 10.jpg";
 import Timpano11 from "../../assets/imgs/Galeria/Timpanos/Timpano 11.jpg";
 import Timpano12 from "../../assets/imgs/Galeria/Timpanos/Timpano 12 irregular.jpg";
-import { Container } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
 export const Galeria = () => {
   return (
@@ -54,38 +55,50 @@ export const Galeria = () => {
       <h2 className="galeriaTitulo">Galeria</h2>
       <Tab.Container defaultActiveKey="#link1">
         <ListGroup className="listG" horizontal>
-          <ListGroup.Item
-            className="lgItem"
-            variant="dark"
-            action
-            href="#link1"
-          >
-            Arcotechos sobre barda
-          </ListGroup.Item>
-          <ListGroup.Item
-            className="lgItem"
-            variant="dark"
-            action
-            href="#link2"
-          >
-            Arcotechos sobre columnas
-          </ListGroup.Item>
-          <ListGroup.Item
-            className="lgItem"
-            variant="dark"
-            action
-            href="#link3"
-          >
-            Techos de dos aguas y estructuras metalicas
-          </ListGroup.Item>
-          <ListGroup.Item
-            className="lgItem"
-            variant="dark"
-            action
-            href="#link4"
-          >
-            Timpanos
-          </ListGroup.Item>
+          <Container>
+            <Row>
+              <Col xs={12} lg={3} className="p-0">
+                <ListGroup.Item
+                  className="lgItem"
+                  variant="dark"
+                  action
+                  href="#link1"
+                >
+                  Arcotechos sobre barda
+                </ListGroup.Item>
+              </Col>
+              <Col xs={12} lg={3} className="p-0">
+                <ListGroup.Item
+                  className="lgItem"
+                  variant="dark"
+                  action
+                  href="#link2"
+                >
+                  Arcotechos sobre columnas
+                </ListGroup.Item>
+              </Col>
+              <Col xs={12} lg={3} className="p-0">
+                <ListGroup.Item
+                  className="lgItem"
+                  variant="dark"
+                  action
+                  href="#link3"
+                >
+                  Estructuras metalicas
+                </ListGroup.Item>
+              </Col>
+              <Col xs={12} lg={3} className="p-0">
+                <ListGroup.Item
+                  className="lgItem"
+                  variant="dark"
+                  action
+                  href="#link4"
+                >
+                  Timpanos
+                </ListGroup.Item>
+              </Col>
+            </Row>
+          </Container>
         </ListGroup>
         <Tab.Content>
           <Tab.Pane eventKey="#link1" className="px-5">
