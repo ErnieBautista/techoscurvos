@@ -1,0 +1,25 @@
+.CarusselImg {
+  width: 100%;
+  height: calc(100vh - 120px);
+  filter:brightness(80%);
+}
+
+.CarusselText {
+  font-size: x-large;
+}
+
+.carruselEstructura {
+  color: white;
+  font-weight: 500;
+}
+
+.carruselMex {
+  color: black;
+  font-weight: bold;
+
+}
+
+.CarusselButton {
+  position: absolute;
+  left: 45%;
+}
