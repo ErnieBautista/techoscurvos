@@ -7,6 +7,7 @@ import "./nav-bar.scss";
 import Logo from "../../assets/imgs/logo.png";
 import Logo2 from "../../assets/imgs/logo2.png";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function NavBar() {
   return (
@@ -29,13 +30,17 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav>
-            <Nav.Link href="#deets">
+            <Nav.Link>
               <Link to="/">Inicio</Link>
             </Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
               <Link to="soluciones">Soluciones</Link>
             </Nav.Link>
-            <NavDropdown title="Nosotros" id="collasible-nav-dropdown">
+            <NavDropdown
+              className=" bg_techos_curvos"
+              title="Nosotros"
+              id="collasible-nav-dropdown"
+            >
               <NavDropdown.Item href="#action/3.1">Nosotros</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 <Link to="aviso-de-privacidad">Aviso de Privacidad</Link>
@@ -46,7 +51,11 @@ function NavBar() {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#deets">Contactanos</Nav.Link>
+            <Nav.Link>
+              <HashLink smooth to="/#contactanos">
+                Contactanos
+              </HashLink>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

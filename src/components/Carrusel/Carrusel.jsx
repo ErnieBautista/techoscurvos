@@ -9,7 +9,7 @@ import "./carrusel.scss";
 
 export const Carrusel = () => {
   return (
-    <Carousel fade>
+    <Carousel fade id="/">
       <Carousel.Item>
         <img className="CarusselImg" src={Arcotecho1} alt="Techo curvo" />
         <Carousel.Caption className="pb-5">

@@ -10,7 +10,7 @@ import { Soluciones } from "../components/Soluciones/Soluciones";
 export const Home = () => {
   return (
     <div>
-      <Carrusel />
+      <Carrusel id="carrusel" />
       <Soluciones />
       <Beneficios />
       <div className="containerCards">
