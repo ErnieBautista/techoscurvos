@@ -5,7 +5,6 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import { IoLogoWhatsapp } from "react-icons/io";
-import { FaFacebookSquare } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 
 import "./formulario.scss";
@@ -35,22 +34,22 @@ export const Formulario = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_hjzomsf",
-        "template_tq2ytbe",
-        form.current,
-        "oATj4uF5FZeXOCboE"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          console.log(formValues);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    // emailjs
+    //   .sendForm(
+    //     "service_hjzomsf",
+    //     "template_tq2ytbe",
+    //     form.current,
+    //     "oATj4uF5FZeXOCboE"
+    //   )
+    //   .then(
+    //     (result) => {
+    //       console.log(result.text);
+    //       console.log(formValues);
+    //     },
+    //     (error) => {
+    //       console.log(error.text);
+    //     }
+    //   );
     handleShow(false);
   };
 
@@ -58,7 +57,7 @@ export const Formulario = () => {
     <Container id="contactanos" className="text-center pb-5">
       <h2 className="pb-5">¡Te cotizamos sin compromiso!</h2>
       <Row>
-        <Col lg="9" xs="12">
+        <Col lg="7" xs="12">
           <h3 className="pb-4">
             Pide tu cotizacion hoy y la recibes en 1 dia habil.
           </h3>
@@ -173,44 +172,40 @@ export const Formulario = () => {
             </div>
           </Form>
         </Col>
-        <Col lg="3" xs="12" className="pt-5">
-          <h3>Contacto</h3>
+        <Col lg="5" xs="12" className="pt-5">
+          <h3 className="fw-bold pb-1 fs-4">CONTACTO</h3>
           <div>
             Nuestro horario de oficina es de:
             <br />
-            09:00 - 18:00 Lunes a Viernes
+            Lunes a Viernes 09:00 - 18:00
             <br />
-            09:00 - 14:00 Sabados
+            Sabados 09:00 - 14:00
           </div>
           <div className="links">
             <a className="text-primary" href="mailto:ventas@techoscurvos.com">
               ventas@techoscurvos.com
             </a>
             <br />
+            <Button
+              className="text-white my-3"
+              href="https://api.whatsapp.com/send?phone=5212224397551&text=Hola,%20quiero%20una%20cotizaci%C3%B3n%20por%20favor"
+              variant="success"
+              target="_blank"
+            >
+              Mandar Whatsapp <IoLogoWhatsapp />
+            </Button>
+            <h3 className="fw-bold pb-1 fs-5 mt-3">¡LLAMANOS!</h3>
+            <a className="text-primary" href="tel:+522224397551">
+              Tel. Puebla (222) 439 75 51
+            </a>
+            <br />
             <a className="text-primary" href="tel:2222367188">
               (222) 236 71 88
             </a>
             <br />
-            <IoLogoWhatsapp />
-            <p>
-              Whatsapp:
-              <a className="text-primary" href="tel:+522224397551">
-                222 439 75 51
-              </a>
-            </p>
-            <a
-              className="text-primary"
-              href="https://api.whatsapp.com/send?phone=5212224397551&text=Hola,%20quiero%20una%20cotizaci%C3%B3n%20por%20favor"
-            >
-              http://bit.ly/tecotizamosya
-            </a>
+            <br />
             <div>
-              El dia a dia de nuestras obras esta en Facebook:
-              <FaFacebookSquare />
               <br />
-              <a className="text-primary" href="tel:2222367188">
-                Tel. (222) 236 71 88
-              </a>
             </div>
           </div>
         </Col>
