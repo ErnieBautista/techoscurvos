@@ -37,8 +37,8 @@ export const Nosotros = () => {
           </p>
           <Row>
             <Col>
-              <div className="imgValores">
-                <h3 className="fs-1 pb-2">Honestidad</h3>
+              <div className="nosotrosValores">
+                <h3 className="fs-1">Honestidad</h3>
               </div>
               <p className="fs-5 px-5">
                 Creemos que no hay nada encubierto que no llegue a revelarse, ni
@@ -46,8 +46,8 @@ export const Nosotros = () => {
               </p>
             </Col>
             <Col>
-              <div className="imgValores">
-                <h3 className="fs-1 pb-2">Confiabilidad</h3>
+              <div className="nosotrosValores">
+                <h3 className="fs-1">Confiabilidad</h3>
               </div>
               <p className="fs-5">
                 Cuando decimos “sí”, realmente decimos sí. Cuando decimos “no”,
@@ -56,8 +56,8 @@ export const Nosotros = () => {
               </p>
             </Col>
             <Col>
-              <div className="imgValores">
-                <h3 className="fs-1 pb-2">Servicio al cliente</h3>
+              <div className="nosotrosValores">
+                <h3 className="fs-1">Servicio al cliente</h3>
               </div>
               <p className="fs-5">
                 Damos en medida buena, apretada y rebosante. Tratando a los
