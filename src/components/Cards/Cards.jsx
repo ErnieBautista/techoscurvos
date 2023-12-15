@@ -15,9 +15,8 @@ export const Cards = () => {
         Explora cómo trabajar con nosotros puede maximizar el éxito de tus
         obras.
       </p>
-      <div className="d-flex justify-content-evenly mt-5 container">
-        <div className="row">
-          <Card className="col-lg-3 col-md-12">
+      <div className="d-lg-flex justify-content-between mt-5 gap-4">
+          <Card className="col-lg-3 col-md-12 my-3">
             <RiMedalLine className="cardIcons" />
             <Card.Body className="cardBody">
               <Card.Title>Calidad</Card.Title>
@@ -28,7 +27,7 @@ export const Cards = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card className="col-lg-3 col-md-12">
+          <Card className="col-lg-3 col-md-12 my-3">
             <RiBriefcase5Fill className="cardIcons" />
             <Card.Body className="cardBody">
               <Card.Title>Experiencia</Card.Title>
@@ -38,7 +37,7 @@ export const Cards = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card className="col-lg-3 col-md-12">
+          <Card className="col-lg-3 col-md-12 my-3">
             <RiRouteLine className="cardIcons" />
             <Card.Body className="cardBody">
               <Card.Title>Adaptabilidad</Card.Title>
@@ -48,7 +47,7 @@ export const Cards = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card className="col-lg-3 col-md-12">
+          <Card className="col-lg-3 col-md-12 my-3">
             <RiMoneyDollarCircleFill className="cardIcons" />
             <Card.Body className="cardBody">
               <Card.Title>Beneficios</Card.Title>
@@ -58,7 +57,6 @@ export const Cards = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-        </div>
       </div>
     </Container>
   );

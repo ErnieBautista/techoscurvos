@@ -56,7 +56,7 @@ export const Formulario = () => {
   };
 
   return (
-    <Container id="contactanos" className="text-center pb-5">
+    <Container id="contactanos" className="text-center pb-5 my-5">
       <h2 className="pb-5">¡Te cotizamos sin compromiso!</h2>
       <Row>
         <Col lg="7" xs="12">
@@ -175,7 +175,7 @@ export const Formulario = () => {
           </Form>
         </Col>
         <Col lg="5" xs="12" className="pt-5">
-        <RiMailUnreadFill className="fs-3"/>
+        <RiMailUnreadFill className="fs-3 mb-3"/>
           <h3 className="fw-bold pb-1 fs-4">CONTACTO</h3>
           <div>
             Nuestro horario de oficina es de:
