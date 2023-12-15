@@ -30,7 +30,7 @@ export const Beneficios = () => {
 
   return (
     <Container>
-      <div className="my-5" id="Beneficios">
+      <div className="my-5" id="soluciones">
         <Tab.Container
           id="list-group-tabs-example"
           defaultActiveKey={currentLink}
@@ -59,7 +59,7 @@ export const Beneficios = () => {
             <Col sm={8}>
               <Tab.Content>
                 <Tab.Pane eventKey="#link1" className="px-5">
-                  <div className="beneficiosDescripcion">
+                  <div className="my-3 beneficiosDescripcion">
                     Nuestros arcotechos proporcionan soluciones versátiles y
                     resistentes para una variedad de aplicaciones, desde
                     canchas, almacenes industriales hasta espacios comerciales.
@@ -76,7 +76,7 @@ export const Beneficios = () => {
                   />
                 </Tab.Pane>
                 <Tab.Pane eventKey="#link2" className="px-5">
-                  <div className="beneficiosDescripcion">
+                  <div className="my-3 beneficiosDescripcion">
                     Ademas de los techos curvos, tambien especializamos en la
                     fabricación y venta de estructuras metálicas que
                     proporcionan la base resistente para cualquier edificación.
@@ -87,7 +87,7 @@ export const Beneficios = () => {
                   <img className="BeneficiosImg" src={Arcotecho5} alt="" />
                 </Tab.Pane>
                 <Tab.Pane eventKey="#link3" className="px-5">
-                  <div className="beneficiosDescripcion">
+                  <div className="my-3 beneficiosDescripcion">
                     Nuestros trabajos son diseñados y calculados con apego a
                     NTC-DF2004 y al Manual de Diseño por Viento de CFE Vigente.
                   </div>
@@ -98,7 +98,7 @@ export const Beneficios = () => {
                   />
                 </Tab.Pane>
                 <Tab.Pane eventKey="#link4" className="px-5">
-                  <div className="beneficiosDescripcion">
+                  <div className="my-3 beneficiosDescripcion">
                     Ofrecemos una extensa gama de láminas de altp desempeño
                     estructural por su caracteristico traslape longitudinal
                     engargolado que logra una junta homogenea que se adaptan a
@@ -114,7 +114,7 @@ export const Beneficios = () => {
                   </a>
                 </Tab.Pane>
                 <Tab.Pane eventKey="#link5" className="px-5">
-                  <div className="beneficiosDescripcion">
+                  <div className="my-3 beneficiosDescripcion">
                     Si eres instalador, facilitamos tus proyectos de
                     construcción ofreciendo servicios de renta de máquinas
                     roladoras. Nuestras máquinas están diseñadas para ser

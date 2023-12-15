@@ -104,145 +104,145 @@ export const Galeria = () => {
           <Tab.Pane eventKey="#link1" className="px-5">
             <Carousel fade>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoBarda1} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoBarda1} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoBarda2} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoBarda2} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoBarda3} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoBarda3} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoBarda4} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoBarda4} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoBarda5} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoBarda5} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoBarda6} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoBarda6} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoBarda7} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoBarda7} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoBarda8} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoBarda8} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoBarda9} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoBarda9} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoBarda10} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoBarda10} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoBarda11} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoBarda11} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoBarda12} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoBarda12} alt="" />
               </Carousel.Item>
             </Carousel>
           </Tab.Pane>
           <Tab.Pane eventKey="#link2" className="px-5">
             <Carousel fade>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoCol1} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoCol1} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoCol2} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoCol2} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoCol3} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoCol3} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoCol4} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoCol4} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoCol5} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoCol5} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoCol6} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoCol6} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoCol7} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoCol7} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoCol8} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoCol8} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoCol9} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoCol9} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoCol10} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoCol10} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoCol11} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoCol11} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoCol12} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoCol12} alt="" />
               </Carousel.Item>
             </Carousel>
           </Tab.Pane>
           <Tab.Pane eventKey="#link3" className="px-5">
             <Carousel fade>
               <Carousel.Item>
-                <img className="GaleriaImg" src={EstructuraMetalica} alt="" />
+                <img className="GaleriaImg img-fluid" src={EstructuraMetalica} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={EMyT2A} alt="" />
+                <img className="GaleriaImg img-fluid" src={EMyT2A} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={T2A} alt="" />
+                <img className="GaleriaImg img-fluid" src={T2A} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={TI} alt="" />
+                <img className="GaleriaImg img-fluid" src={TI} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={ArcotechoCompleto} alt="" />
+                <img className="GaleriaImg img-fluid" src={ArcotechoCompleto} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={T2A2} alt="" />
+                <img className="GaleriaImg img-fluid" src={T2A2} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={T2A3} alt="" />
+                <img className="GaleriaImg img-fluid" src={T2A3} alt="" />
               </Carousel.Item>
             </Carousel>
           </Tab.Pane>
           <Tab.Pane eventKey="#link4" className="px-5">
             <Carousel fade>
               <Carousel.Item>
-                <img className="GaleriaImg" src={Timpano1} alt="" />
+                <img className="GaleriaImg img-fluid" src={Timpano1} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={Timpano2} alt="" />
+                <img className="GaleriaImg img-fluid" src={Timpano2} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={Timpano3} alt="" />
+                <img className="GaleriaImg img-fluid" src={Timpano3} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={Timpano4} alt="" />
+                <img className="GaleriaImg img-fluid" src={Timpano4} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={Timpano5} alt="" />
+                <img className="GaleriaImg img-fluid" src={Timpano5} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={Timpano6} alt="" />
+                <img className="GaleriaImg img-fluid" src={Timpano6} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={Timpano7} alt="" />
+                <img className="GaleriaImg img-fluid" src={Timpano7} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={Timpano8} alt="" />
+                <img className="GaleriaImg img-fluid" src={Timpano8} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={Timpano9} alt="" />
+                <img className="GaleriaImg img-fluid" src={Timpano9} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={Timpano10} alt="" />
+                <img className="GaleriaImg img-fluid" src={Timpano10} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={Timpano11} alt="" />
+                <img className="GaleriaImg img-fluid" src={Timpano11} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="GaleriaImg" src={Timpano12} alt="" />
+                <img className="GaleriaImg img-fluid" src={Timpano12} alt="" />
               </Carousel.Item>
             </Carousel>
           </Tab.Pane>

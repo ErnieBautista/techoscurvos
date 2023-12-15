@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 export const Footer = () => {
   return (
     <div className="footer">
-      <Container>
+      <Container className="pt-5">
         <Row>
           <Col className="text-center">
             <FaRegCopyright /> Copyright Techos Curvos 2024
