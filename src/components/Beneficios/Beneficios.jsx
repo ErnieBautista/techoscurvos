@@ -104,9 +104,8 @@ export const Beneficios = () => {
                     engargolado que logra una junta homogenea que se adaptan a
                     diversas aplicaciones y necesidades de construcción.
                     <br />
-                    Para comprar laminas, haz click{" "}
-                    <a href="https://www.laminasenpuebla.com/" target="_new">
-                      aqui!
+                    Para comprar laminas, haz click <a className="text-danger" href="https://www.laminasenpuebla.com/" target="_new">
+                    aqui!
                     </a>
                   </div>
                   <a href="https://www.laminasenpuebla.com/" target="_new">
@@ -122,10 +121,8 @@ export const Beneficios = () => {
                     eficientes y versátiles, permitiéndote dar forma a las
                     láminas de manera precisa y rápida.
                     <br />
-                    Haz click{" "}
-                    <a href="https://www.maquinasuperspan.com/" target="_new">
-                      aqui
-                    </a>{" "}
+                    Haz click <a className="text-danger" href="https://www.maquinasuperspan.com/" target="_new">
+                    aqui </a>
                     o en la imagen!
                   </div>
                   <a href="https://www.maquinasuperspan.com/" target="_new">

@@ -18,7 +18,7 @@ export const Carrusel = () => {
             <p className="CarusselText">
               Especialistas en la fabricacion de estructuras de acero
             </p>
-            <Button className="CarusselButton" variant="danger">
+            <Button href="/#contactanos" className="my-2" variant="danger">
               Contactanos
             </Button>
           </div>
@@ -33,7 +33,7 @@ export const Carrusel = () => {
               Materializamos tus proyectos protegiendo tu inversion.
             </p>
             <br />
-            <Button className="CarusselButton" variant="danger">
+            <Button href="/#contactanos" className="mt-1" variant="danger">
               Contactanos
             </Button>
           </div>
@@ -53,7 +53,7 @@ export const Carrusel = () => {
               instalar techos curvos de alta calidad.
             </p>
             <br />
-            <Button className="CarusselButton" variant="danger">
+            <Button href="/#contactanos" className="my-2" variant="danger">
               Contactanos
             </Button>
           </div>
@@ -74,7 +74,7 @@ export const Carrusel = () => {
               expectativas de nuestros clientes.
             </p>
             <br />
-            <Button className="CarusselButton" variant="danger">
+            <Button href="/#contactanos" className="mt-5" variant="danger">
               Contactanos
             </Button>
           </div>
@@ -96,7 +96,7 @@ export const Carrusel = () => {
               toda la republica.
             </p>
             <br />
-            <Button className="CarusselButton" variant="danger">
+            <Button href="/#contactanos" className="my-2" variant="danger">
               Contactanos
             </Button>
           </div>

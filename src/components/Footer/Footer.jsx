@@ -26,26 +26,10 @@ export const Footer = () => {
             </Link>
           </Col>
           <Col className="text-center">
-            <FaFacebookSquare
-              to="https://www.facebook.com/techoscurvoss"
-              target=" _blank"
-              className="px-1 fs-3"
-            />
-            <FaWhatsapp
-              to="https://api.whatsapp.com/send?phone=527444292283"
-              target=" _blank"
-              className="px-1 fs-3"
-            />
-            <FaInstagram
-              to="https://www.instagram.com/techoscurvos/?hl=es"
-              target=" _blank"
-              className="px-1 fs-3"
-            />
-            <FaLinkedin
-              to="https://www.linkedin.com/company/techos-curvos-com/about/"
-              target=" _blank"
-              className="px-1 fs-3"
-            />
+            <a href="https://www.facebook.com/techoscurvoss" target=" _blank" className="px-1 fs-3"><FaFacebookSquare/></a>
+            <a href="https://api.whatsapp.com/send?phone=527444292283" target=" _blank" className="px-1 fs-3"><FaWhatsapp/></a>
+            <a href="https://www.instagram.com/techoscurvos/?hl=es" target=" _blank" className="px-1 fs-3"><FaInstagram/></a>
+            <a href="https://www.linkedin.com/company/techos-curvos-com/about/" target=" _blank" className="px-1 fs-3"><FaLinkedin/></a>
           </Col>
         </Row>
       </Container>

@@ -33,7 +33,7 @@ export const Contactanos = () => {
         </a>
       </ul>
       <button>
-        <a className="colorWhite" href="#Contacto">
+        <a className="colorWhite" href="/#contactanos">
           ¡Contactanos!
         </a>
       </button>

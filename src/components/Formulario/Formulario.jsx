@@ -6,6 +6,8 @@ import Form from "react-bootstrap/Form";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import { IoLogoWhatsapp } from "react-icons/io";
 import emailjs from "@emailjs/browser";
+import { FaPhone } from "react-icons/fa";
+import { RiMailUnreadFill } from "react-icons/ri";
 
 import "./formulario.scss";
 import { useForm } from "../../hooks/useForm";
@@ -151,11 +153,11 @@ export const Formulario = () => {
             </Row>
             <FloatingLabel
               controlId="floatingSelect"
-              label="Tiene obra civil lista para recibir su techumbre?"
+              label="Tiene obra civil lista para recibir su techo?"
               className="pb-3"
             >
               <Form.Select
-                aria-label="Tiene obra civil lista para recibir su techumbre?"
+                aria-label="Tiene obra civil lista para recibir su techo?"
                 name="opcion"
                 onChange={handleInputChange}
               >
@@ -173,6 +175,7 @@ export const Formulario = () => {
           </Form>
         </Col>
         <Col lg="5" xs="12" className="pt-5">
+        <RiMailUnreadFill className="fs-3"/>
           <h3 className="fw-bold pb-1 fs-4">CONTACTO</h3>
           <div>
             Nuestro horario de oficina es de:
@@ -182,9 +185,11 @@ export const Formulario = () => {
             Sabados 09:00 - 14:00
           </div>
           <div className="links">
-            <a className="text-primary" href="mailto:ventas@techoscurvos.com">
+            <div>
+              Email: <a className="text-primary" href="mailto:ventas@techoscurvos.com">
               ventas@techoscurvos.com
             </a>
+            </div>
             <br />
             <Button
               className="text-white my-3"
@@ -194,7 +199,10 @@ export const Formulario = () => {
             >
               Mandar Whatsapp <IoLogoWhatsapp />
             </Button>
+            <br />
+            <FaPhone className="fs-3"/> 
             <h3 className="fw-bold pb-1 fs-5 mt-3">¡LLAMANOS!</h3>
+            
             <a className="text-primary" href="tel:+522224397551">
               Tel. Puebla (222) 439 75 51
             </a>
