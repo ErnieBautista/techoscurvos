@@ -4,7 +4,7 @@ import Arcotecho1 from "../..//assets/imgs/Arcotecho despues 2 23-10-2023.jpg";
 import Arcotecho2 from "../../assets/imgs/Arcotecho despues 10 2-9-2023.jpg";
 import Arcotecho3 from "../../assets/imgs/Arcotecho Queretaro despues.jpg";
 import EstructuraMetalica from "../../assets/imgs/Estructura metalica PBL.jpg";
-import BanderaMexico from "../../assets/imgs/mexico.jpg";
+import BanderaMexico from "../../assets/imgs/bandera mexico 2.jpg";
 import "./carrusel.scss";
 
 export const Carrusel = () => {
@@ -91,7 +91,7 @@ export const Carrusel = () => {
             <h2 className="carruselMex fs-2">
               Trabajamos en toda la republica
             </h2>
-            <p className="carruselMex fs-5">
+            <p className="carruselMex fs-4">
               Realizamos espacios de uso comercial, industrial y mixtos para
               toda la republica.
             </p>

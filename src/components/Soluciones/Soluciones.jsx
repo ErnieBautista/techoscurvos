@@ -7,8 +7,7 @@ export const Soluciones = () => {
       <hr />
       <p>
         ¡Descubre nuestra gama completa de soluciones para techumbres metalicas
-        con diseños a la medida e instalación profesional.
-        <p>Explora cómo podemos llevar tus proyectos al siguiente nivel.</p>
+        con diseños a la medida e instalación profesional. Explora cómo podemos llevar tus proyectos al siguiente nivel.
       </p>
     </Container>
   );

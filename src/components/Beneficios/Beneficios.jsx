@@ -63,9 +63,8 @@ export const Beneficios = () => {
                     Nuestros arcotechos proporcionan soluciones versátiles y
                     resistentes para una variedad de aplicaciones, desde
                     canchas, almacenes industriales hasta espacios comerciales.
-                    Nuestros arcotechos no solo destacan por su resistencia y
-                    durabilidad, sino también por su diseño estético y
-                    funcionalidad, proporcionando a nuestros clientes la
+                    Al trabajar con nosotros aseguramos durabilidad, diseño estetico y funcionalidad.
+                    Proporcionamos a nuestros clientes la
                     solución ideal para sus necesidades con la mejor relación
                     <strong> COSTO - BENEFICIO.</strong>
                   </div>
@@ -99,7 +98,7 @@ export const Beneficios = () => {
                 </Tab.Pane>
                 <Tab.Pane eventKey="#link4" className="px-5">
                   <div className="my-3 beneficiosDescripcion">
-                    Ofrecemos una extensa gama de láminas de altp desempeño
+                    Ofrecemos una extensa gama de láminas de alto desempeño
                     estructural por su caracteristico traslape longitudinal
                     engargolado que logra una junta homogenea que se adaptan a
                     diversas aplicaciones y necesidades de construcción.
