@@ -66,19 +66,10 @@ export const Formulario = () => {
           <Form ref={form} onSubmit={handleSubmit}>
             <Row className="pb-3">
               <Col>
-                <FloatingLabel controlId="floatingInputGrid" label="Nombre">
+                <FloatingLabel controlId="floatingInputGrid" label="Nombre completo ">
                   <Form.Control
                     placeholder="name@example.com"
                     name="nombre"
-                    onChange={handleInputChange}
-                  />
-                </FloatingLabel>
-              </Col>
-              <Col>
-                <FloatingLabel controlId="floatingInputGrid" label="Apellido">
-                  <Form.Control
-                    placeholder="name@example.com"
-                    name="apellido"
                     onChange={handleInputChange}
                   />
                 </FloatingLabel>

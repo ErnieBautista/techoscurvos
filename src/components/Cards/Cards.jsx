@@ -19,7 +19,7 @@ export const Cards = () => {
           <Card className="col-lg-3 col-md-12 my-3">
             <RiMedalLine className="cardIcons" />
             <Card.Body className="cardBody">
-              <Card.Title>Calidad</Card.Title>
+              <Card.Title className="fw-bold">Calidad</Card.Title>
               <Card.Text className="cardDescription">
                 Sólo manejamos materiales de calidad certificada, priorizando la
                 correcta aplicación de los recursos para garantizar la
@@ -30,7 +30,7 @@ export const Cards = () => {
           <Card className="col-lg-3 col-md-12 my-3">
             <RiBriefcase5Fill className="cardIcons" />
             <Card.Body className="cardBody">
-              <Card.Title>Experiencia</Card.Title>
+              <Card.Title className="fw-bold">Experiencia</Card.Title>
               <Card.Text className="cardDescription">
                 Nuestra experiencia y habilidad técnica garantizan la mejor
                 solucionar a las necesidades del cliente.
@@ -40,7 +40,7 @@ export const Cards = () => {
           <Card className="col-lg-3 col-md-12 my-3">
             <RiRouteLine className="cardIcons" />
             <Card.Body className="cardBody">
-              <Card.Title>Adaptabilidad</Card.Title>
+              <Card.Title className="fw-bold">Adaptabilidad</Card.Title>
               <Card.Text className="cardDescription">
                 Priorizamos las necesidades de los procesos del cliente para un
                 optimo desempeño de sus labores.
@@ -50,7 +50,7 @@ export const Cards = () => {
           <Card className="col-lg-3 col-md-12 my-3">
             <RiMoneyDollarCircleFill className="cardIcons" />
             <Card.Body className="cardBody">
-              <Card.Title>Beneficios</Card.Title>
+              <Card.Title className="fw-bold">Beneficios</Card.Title>
               <Card.Text className="cardDescription">
                 Nos enfocamos en optimizar la mejor relación costo-beneficio
                 para brindar al cliente la mejor calidad al mejor precio.
