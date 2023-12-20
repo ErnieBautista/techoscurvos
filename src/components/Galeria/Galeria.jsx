@@ -51,7 +51,7 @@ import { Container, Row } from "react-bootstrap";
 
 export const Galeria = () => {
   return (
-    <Container id="Galeria">
+    <Container id="Galeria" className="d-inline justify-content-center mx-0">
       <h2 className="galeriaTitulo">Galeria</h2>
       <Tab.Container defaultActiveKey="#link1">
         <ListGroup className="listG" horizontal>
