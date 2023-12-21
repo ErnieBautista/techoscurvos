@@ -42,10 +42,10 @@ export const Beneficios = () => {
                   <SiArchicad className="serviciosIcon" /> Arcotechos
                 </ListGroup.Item>
                 <ListGroup.Item variant="secondary" action href="#link2">
-                  <GiMetalBar className="serviciosIcon" /> Estructuras metalicas
+                  <GiMetalBar className="serviciosIcon" /> Estructuras metálicas
                 </ListGroup.Item>
                 <ListGroup.Item variant="secondary" action href="#link3">
-                  <AiFillCalculator className="serviciosIcon" /> Calculos
+                  <AiFillCalculator className="serviciosIcon" /> Cálculos
                   estructurales
                 </ListGroup.Item>
                 <ListGroup.Item variant="secondary" action href="#link4">
@@ -63,7 +63,7 @@ export const Beneficios = () => {
                     Nuestros arcotechos proporcionan soluciones versátiles y
                     resistentes para una variedad de aplicaciones, desde
                     canchas, almacenes industriales hasta espacios comerciales.
-                    Al trabajar con nosotros aseguramos durabilidad, diseño estetico y funcionalidad.
+                    Al trabajar con nosotros aseguramos durabilidad, diseño estético y funcionalidad.
                     Proporcionamos a nuestros clientes la
                     solución ideal para sus necesidades con la mejor relación
                     <strong> COSTO - BENEFICIO.</strong>
@@ -76,7 +76,7 @@ export const Beneficios = () => {
                 </Tab.Pane>
                 <Tab.Pane eventKey="#link2" className="px-5">
                   <div className="my-3 beneficiosDescripcion">
-                    Ademas de los techos curvos, tambien especializamos en la
+                    Además de los techos curvos, también  especializamos en la
                     fabricación y venta de estructuras metálicas que
                     proporcionan la base resistente para cualquier edificación.
                     Ya sea para soportar un arcotecho, una nave industrial o
@@ -99,8 +99,8 @@ export const Beneficios = () => {
                 <Tab.Pane eventKey="#link4" className="px-5">
                   <div className="my-3 beneficiosDescripcion">
                     Ofrecemos una extensa gama de láminas de alto desempeño
-                    estructural por su caracteristico traslape longitudinal
-                    engargolado que logra una junta homogenea que se adaptan a
+                    estructural por su característico traslape longitudinal
+                    engargolado que logra una junta homogénea que se adaptan a
                     diversas aplicaciones y necesidades de construcción.
                     <br />
                     Para comprar laminas, haz click <a className="text-danger" href="https://www.laminasenpuebla.com/" target="_new">
@@ -121,7 +121,7 @@ export const Beneficios = () => {
                     láminas de manera precisa y rápida.
                     <br />
                     Haz click <a className="text-danger" href="https://www.maquinasuperspan.com/" target="_new">
-                    aqui </a>
+                    aquí </a>
                     o en la imagen!
                   </div>
                   <a href="https://www.maquinasuperspan.com/" target="_new">

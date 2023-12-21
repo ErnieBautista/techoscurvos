@@ -15,7 +15,7 @@ export const Formulario = () => {
       <Row>
         <Col lg="7" xs="12">
           <h3 className="pb-4">
-            Pide tu cotizacion hoy y la recibes en 1 dia habil.
+            Pide tu cotización hoy y la recibes en 1 día hábil.
           </h3>
           <FormEmail />
         </Col>
