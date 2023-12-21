@@ -61,7 +61,7 @@ export const Formulario = () => {
       <Row>
         <Col lg="7" xs="12">
           <h3 className="pb-4">
-            Pide tu cotizacion hoy y la recibes en 1 dia habil.
+            Pide tu cotización hoy y la recibes en 1 día hábil.
           </h3>
           <Form ref={form} onSubmit={handleSubmit}>
             <Row className="pb-3">
@@ -152,7 +152,7 @@ export const Formulario = () => {
                 name="opcion"
                 onChange={handleInputChange}
               >
-                <option>Seleccione una opcion</option>
+                <option>Seleccione una opción</option>
                 <option value="Si">Si</option>
                 <option value="No">No</option>
                 <option value="En proceso">En proceso</option>

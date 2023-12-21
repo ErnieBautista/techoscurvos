@@ -10,20 +10,20 @@ export const Nosotros = () => {
         <h2 className="pt-5">Nosotros</h2>
         <Row>
           <Col className="nosotrosCol m-5">
-            <h3 className="fs-1 pb-2">Mision</h3>
+            <h3 className="fs-1 pb-2">Misión</h3>
             <p className="fs-5">
               Ayudar a nuestros clientes a materializar sus proyectos mediante
               la experiencia, calidad y eficiencia de nuestros socios y
               asociados, diseñando, fabricando e instalando techos sin
-              estructura secundaria de soporte, con la mejor relacion
+              estructura secundaria de soporte, con la mejor relación
               costo-beneficio.
             </p>
           </Col>
           <Col className="nosotrosCol m-5">
-            <h3 className="fs-1 pb-2">Vision</h3>
+            <h3 className="fs-1 pb-2">Visión</h3>
             <p className="fs-5">
               Ser una empresa consolidada, profesional, con procesos
-              estandarizados, financieramente solida y altamente competitiva
+              estandarizados, financieramente sólida y altamente competitiva
               capaz de adaptarse a las exigencias del mercado.
             </p>
           </Col>
@@ -31,8 +31,8 @@ export const Nosotros = () => {
         <div className="py-5">
           <h2 className="pb-4">Valores</h2>
           <p className="fs-5 pb-5 px-5">
-            Los que laboramos en estra empresa creemos firmemente en trabajar
-            alegres y de buen corazon, pensando que hacemos las cosas como para
+            Los que laboramos en esta empresa creemos firmemente en trabajar
+            alegres y de buen corazón, pensando que hacemos las cosas como para
             Dios y no para los hombres.
           </p>
           <Row>
@@ -51,7 +51,7 @@ export const Nosotros = () => {
               </div>
               <p className="fs-5">
                 Cuando decimos “sí”, realmente decimos sí. Cuando decimos “no”,
-                realmente decimos no. Cualquier otra cosa mas alla de eso no
+                realmente decimos no. Cualquier otra cosa más allá de eso no
                 agradable a los ojos de Dios.
               </p>
             </Col>
@@ -61,7 +61,7 @@ export const Nosotros = () => {
               </div>
               <p className="fs-5">
                 Damos en medida buena, apretada y rebosante. Tratando a los
-                demas como nos gustaria ser tratados.
+                demás como nos gustaría ser tratados.
               </p>
             </Col>
           </Row>

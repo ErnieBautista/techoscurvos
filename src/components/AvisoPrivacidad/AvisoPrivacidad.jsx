@@ -5,7 +5,7 @@ import "./avisoPrivacidad.css";
 export const AvisoPrivacidad = () => {
   return <div>
     <h2 className="d-flex justify-content-center my-5 avisoTitulo">Aviso de privacidad</h2>
-    <div className="mx-5">
+    <div className="mx-5 avisoTexto">
       TECHOS CURVOS .COM S DE RL DE CV, con domicilio en calle 29 Oriente, Col.
       El Carmen, Puebla, Puebla, C.P. 72530, en la entidad de Puebla, País
       México, y portal de internet www.techoscurvos.com, es el responsable del
@@ -29,6 +29,7 @@ export const AvisoPrivacidad = () => {
       con quienes compartimos su información personal y la forma en que podrá
       ejercer sus derechos ARCO, puede consultar el aviso de privacidad integral
       en: www.techoscurvos.com
+      <br />
       <Button href="/" className="avisoButton danger">Volver a la pagina de inicio</Button>
     </div>
   </div>;
