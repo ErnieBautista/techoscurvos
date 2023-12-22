@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import ChatBot from "react-simple-chatbot";
 import emailjs from "@emailjs/browser";
+import "./chatbot.scss";
 
 export const ChatBott = () => {
   const [nombre, setNombre] = useState("");
@@ -37,15 +38,13 @@ export const ChatBott = () => {
     }
   }, [send]);
 
-  const config ={
-    maxHeight: "550px", 
-  };
-
   return (
     <ChatBot
+      className="chatbot"
       headerTitle="Techos Curvos"
       placeholder="Escribe un mensaje..."
       floating
+      height="450px"
       steps={[
         {
           id: "Saludo",
@@ -136,7 +135,6 @@ export const ChatBott = () => {
           end: true,
         },
       ]}
-      {...config}
     />
   );
 };

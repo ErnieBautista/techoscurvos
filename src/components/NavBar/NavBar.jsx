@@ -16,7 +16,7 @@ function NavBar() {
       data-bs-theme="dark"
       collapseOnSelect
       expand="lg"
-      className=" bg_techos_curvos"
+      className="bg_techos_curvos"
       sticky="top"
     >
       <Container>
