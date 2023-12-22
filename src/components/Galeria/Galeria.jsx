@@ -101,7 +101,7 @@ export const Galeria = () => {
           </Container>
         </ListGroup>
         <Tab.Content>
-          <Tab.Pane eventKey="#link1" className="px-2">
+          <Tab.Pane eventKey="#link1" className="px-1">
             <Carousel fade>
               <Carousel.Item>
                 <img className="GaleriaImg img-fluid" src={ArcotechoBarda1} alt="" />
@@ -141,7 +141,7 @@ export const Galeria = () => {
               </Carousel.Item>
             </Carousel>
           </Tab.Pane>
-          <Tab.Pane eventKey="#link2" className="px-2">
+          <Tab.Pane eventKey="#link2" className="px-1">
             <Carousel fade>
               <Carousel.Item>
                 <img className="GaleriaImg img-fluid" src={ArcotechoCol1} alt="" />
@@ -181,7 +181,7 @@ export const Galeria = () => {
               </Carousel.Item>
             </Carousel>
           </Tab.Pane>
-          <Tab.Pane eventKey="#link3" className="px-2">
+          <Tab.Pane eventKey="#link3" className="px-1">
             <Carousel fade>
               <Carousel.Item>
                 <img className="GaleriaImg img-fluid" src={EstructuraMetalica} alt="" />
@@ -206,7 +206,7 @@ export const Galeria = () => {
               </Carousel.Item>
             </Carousel>
           </Tab.Pane>
-          <Tab.Pane eventKey="#link4" className="px-2">
+          <Tab.Pane eventKey="#link4" className="px-1">
             <Carousel fade>
               <Carousel.Item>
                 <img className="GaleriaImg img-fluid" src={Timpano1} alt="" />

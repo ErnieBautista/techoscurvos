@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 
 export const Soluciones = () => {
   return (
-    <Container>
+    <Container id="soluciones">
       <h2>Soluciones</h2>
       <hr />
       <p>

@@ -27,7 +27,7 @@ export const Formulario = () => {
             <br />
             Lunes a Viernes 09:00 - 18:00
             <br />
-            Sabados 09:00 - 14:00
+            Sábados 09:00 - 14:00
           </div>
           <div className="links">
             <div>

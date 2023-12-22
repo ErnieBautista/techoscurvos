@@ -34,7 +34,7 @@ export const Contactanos = () => {
       </ul>
       <button>
         <a className="colorWhite" href="/#contactanos">
-          ¡Contactanos!
+          ¡Contáctanos!
         </a>
       </button>
     </div>

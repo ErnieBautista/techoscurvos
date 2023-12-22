@@ -16,10 +16,10 @@ export const Carrusel = () => {
           <div className="pb-5">
             <h2>Bienvenidos a TechosCurvos.Com</h2>
             <p className="CarusselText">
-              Especialistas en la fabricacion de estructuras de acero
+              Especialistas en la fabricación de estructuras de acero.
             </p>
             <Button href="/#contactanos" className="my-2" variant="danger">
-              Contactanos
+              Contáctanos
             </Button>
           </div>
         </Carousel.Caption>
@@ -30,11 +30,11 @@ export const Carrusel = () => {
           <div className="pb-5">
             <h2>Materializamos tus proyectos</h2>
             <p className="CarusselText">
-              Materializamos tus proyectos protegiendo tu inversion.
+              Materializamos tus proyectos protegiendo tu inversión.
             </p>
             <br />
             <Button href="/#contactanos" className="mt-1" variant="danger">
-              Contactanos
+              Contáctanos
             </Button>
           </div>
         </Carousel.Caption>
@@ -54,7 +54,7 @@ export const Carrusel = () => {
             </p>
             <br />
             <Button href="/#contactanos" className="my-2" variant="danger">
-              Contactanos
+              Contáctanos
             </Button>
           </div>
         </Carousel.Caption>
@@ -75,7 +75,7 @@ export const Carrusel = () => {
             </p>
             <br />
             <Button href="/#contactanos" className="mt-5" variant="danger">
-              Contactanos
+              Contáctanos
             </Button>
           </div>
         </Carousel.Caption>
@@ -93,11 +93,11 @@ export const Carrusel = () => {
             </h2>
             <p className="carruselMex fs-4">
               Realizamos espacios de uso comercial, industrial y mixtos para
-              toda la republica.
+              toda la república.
             </p>
             <br />
             <Button href="/#contactanos" className="my-2" variant="danger">
-              Contactanos
+              Contáctanos
             </Button>
           </div>
         </Carousel.Caption>

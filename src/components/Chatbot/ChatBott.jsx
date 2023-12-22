@@ -37,6 +37,10 @@ export const ChatBott = () => {
     }
   }, [send]);
 
+  const config ={
+    maxHeight: "550px", 
+  };
+
   return (
     <ChatBot
       headerTitle="Techos Curvos"
@@ -132,6 +136,7 @@ export const ChatBott = () => {
           end: true,
         },
       ]}
+      {...config}
     />
   );
 };

@@ -58,7 +58,7 @@ export const FormEmail = () => {
       </Row>
       <Row className="pb-3">
         <Col>
-          <FloatingLabel controlId="floatingInputGrid" label="Telefono">
+          <FloatingLabel controlId="floatingInputGrid" label="Teléfono">
             <Form.Control
               placeholder="name@example.com"
               name="telefono"
@@ -69,7 +69,7 @@ export const FormEmail = () => {
         <Col>
           <FloatingLabel
             controlId="floatingInputGrid"
-            label="Correo Electronico"
+            label="Correo electrónico"
           >
             <Form.Control
               type="email"
@@ -122,7 +122,7 @@ export const FormEmail = () => {
       </Row>
       <FloatingLabel
         controlId="floatingSelect"
-        label="Tiene obra civil lista para recibir su techo?"
+        label="¿Tiene obra civil lista para recibir su techo?"
         className="pb-3"
       >
         <Form.Select

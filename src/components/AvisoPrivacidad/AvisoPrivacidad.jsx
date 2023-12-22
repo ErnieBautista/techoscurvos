@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 import "./avisoPrivacidad.css";
 
 export const AvisoPrivacidad = () => {
-  return <div>
+  return <div className="mb-5">
     <h2 className="d-flex justify-content-center my-5 avisoTitulo">Aviso de privacidad</h2>
     <div className="mx-5 avisoTexto">
       TECHOS CURVOS .COM S DE RL DE CV, con domicilio en calle 29 Oriente, Col.
@@ -30,7 +30,7 @@ export const AvisoPrivacidad = () => {
       ejercer sus derechos ARCO, puede consultar el aviso de privacidad integral
       en: www.techoscurvos.com
       <br />
-      <Button href="/" className="avisoButton danger">Volver a la pagina de inicio</Button>
+      <Button href="/" className="avisoButton danger mb-5">Volver a la pagina de inicio</Button>
     </div>
   </div>;
 };

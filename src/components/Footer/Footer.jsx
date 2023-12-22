@@ -13,7 +13,7 @@ export const Footer = () => {
       <Container className="pt-5">
         <Row>
           <Col className="text-center">
-            <FaRegCopyright /> Copyright Techos Curvos 2024
+            <FaRegCopyright /> Copyright Techos Curvos .Com 2024
           </Col>
           <Col className="text-center" lg={6}>
             <Link to="/aviso-de-privacidad">Aviso de Privacidad</Link> |{" "}

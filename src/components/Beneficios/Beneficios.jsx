@@ -30,7 +30,7 @@ export const Beneficios = () => {
 
   return (
     <Container>
-      <div className="my-5" id="soluciones">
+      <div className="my-5">
         <Tab.Container
           id="list-group-tabs-example"
           defaultActiveKey={currentLink}

@@ -33,15 +33,15 @@ function NavBar() {
             <Nav.Link>
               <Link to="/">Inicio</Link>
             </Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              <Link to="/#soluciones">Soluciones</Link>
+            <Nav.Link eventKey={2} href="/#soluciones">
+              <HashLink smooth to="/#soluciones">Soluciones</HashLink>
             </Nav.Link>
             <NavDropdown
               className=" bg_techos_curvos"
               title="Nosotros"
               id="collasible-nav-dropdown"
             >
-              <NavDropdown.Item href="#action/3.1">Nosotros</NavDropdown.Item>
+              <NavDropdown.Item href="/#Nosotros">Nosotros</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 <Link to="aviso-de-privacidad">Aviso de Privacidad</Link>
               </NavDropdown.Item>
