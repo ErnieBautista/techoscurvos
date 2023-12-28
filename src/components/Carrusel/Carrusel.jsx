@@ -1,9 +1,9 @@
 import Carousel from "react-bootstrap/Carousel";
 import Button from "react-bootstrap/Button";
-import Arcotecho1 from "../..//assets/imgs/Arcotecho despues 2 23-10-2023.jpg";
-import Arcotecho2 from "../../assets/imgs/Arcotecho despues 10 2-9-2023.jpg";
-import Arcotecho3 from "../../assets/imgs/Arcotecho Queretaro despues.jpg";
-import EstructuraMetalica from "../../assets/imgs/Estructura metalica PBL.jpg";
+import Arcotecho1 from "../..//assets/imgs/Carrusel estructura metalica.jpg";
+import EstructuraMetalica from "../../assets/imgs/Carrusel arcotecho.jpg";
+import EstructuraMetalica2 from "../../assets/imgs/Carrusel estructura metalica 2.jpg";
+import EstructuraMetalica3 from "../../assets/imgs/Estructura metalica PBL.jpg";
 import BanderaMexico from "../../assets/imgs/bandera mexico 2.jpg";
 import "./carrusel.scss";
 
@@ -25,7 +25,7 @@ export const Carrusel = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="CarusselImg" src={Arcotecho2} alt="Arcotecho" />
+        <img className="CarusselImg" src={EstructuraMetalica} alt="Arcotecho" />
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
             <h2>Materializamos tus proyectos</h2>
@@ -42,7 +42,7 @@ export const Carrusel = () => {
       <Carousel.Item>
         <img
           className="CarusselImg"
-          src={Arcotecho3}
+          src={EstructuraMetalica2}
           alt="Techo sin estructura"
         />
         <Carousel.Caption className="pb-5">
@@ -62,7 +62,7 @@ export const Carrusel = () => {
       <Carousel.Item>
         <img
           className="CarusselImg"
-          src={EstructuraMetalica}
+          src={EstructuraMetalica3}
           alt="Estructura metalica"
         />
         <Carousel.Caption className="pb-5">
