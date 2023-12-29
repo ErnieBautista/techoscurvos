@@ -32,7 +32,7 @@ export const Formulario = () => {
           <div className="links">
             <div>
               Email:{" "}
-              <a className="text-primary" href="mailto:ventas@techoscurvos.com">
+              <a className="text-primary" href="mailto:ventas@techoscurvos.com?subject=Quiero una cotizacion por favor&body=Nombre:%0ACel:%0AEstado:%0AMuncipio:%0AClaro:%0AProfundidad:%0ATienes obra civil?:">
                 ventas@techoscurvos.com
               </a>
             </div>

@@ -1,4 +1,4 @@
-import {
+ import {
   BsFillExclamationCircleFill,
   BsFillTelephoneFill,
   BsFillEnvelopeFill,
@@ -22,7 +22,7 @@ export const Contactanos = () => {
         <li>
           <a
             className="colorWhite"
-            href="mailto:ventas@techoscurvos.com?subject=¡Gracias por contactarnos!"
+            href="mailto:ventas@techoscurvos.com?subject=Quiero una cotizacion por favor&body=Nombre:%0ACel:%0AEstado:%0AMuncipio:%0AClaro:%0AProfundidad:%0ATienes obra civil?:"
           >
             ventas@techoscurvos.com
           </a>
