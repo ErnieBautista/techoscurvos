@@ -1,10 +1,10 @@
 import Carousel from "react-bootstrap/Carousel";
 import Button from "react-bootstrap/Button";
-import Arcotecho1 from "../..//assets/imgs/Carrusel estructura metalica.jpg";
-import EstructuraMetalica from "../../assets/imgs/Carrusel arcotecho.jpg";
-import EstructuraMetalica2 from "../../assets/imgs/Carrusel estructura metalica 2.jpg";
-import EstructuraMetalica3 from "../../assets/imgs/Estructura metalica PBL.jpg";
-import BanderaMexico from "../../assets/imgs/bandera mexico 2.jpg";
+import Arcotecho1 from "../../assets/imgs/Carrusel estructura metalica.webp";
+import EstructuraMetalica from "../../assets/imgs/Carrusel arcotecho.webp";
+import EstructuraMetalica2 from "../../assets/imgs/Carrusel estructura metalica 2.webp";
+import EstructuraMetalica3 from "../../assets/imgs/Estructura metalica PBL.webp";
+import BanderaMexico from "../../assets/imgs/Mapa Mexico 1.webp";
 import "./carrusel.scss";
 
 export const Carrusel = () => {

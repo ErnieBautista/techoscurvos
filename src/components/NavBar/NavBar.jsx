@@ -4,8 +4,8 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "./nav-bar.scss";
 
-import Logo from "../../assets/imgs/logo.png";
-import Logo2 from "../../assets/imgs/logo2.png";
+import Logo from "../../assets/imgs/logo.webp";
+import Logo2 from "../../assets/imgs/logo2.webp";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
