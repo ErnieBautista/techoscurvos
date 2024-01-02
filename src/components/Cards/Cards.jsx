@@ -33,7 +33,7 @@ export const Cards = () => {
               <Card.Title className="fw-bold">Experiencia</Card.Title>
               <Card.Text className="cardDescription">
                 Nuestra experiencia y habilidad técnica garantizan la mejor
-                solucionar a las necesidades del cliente.
+                solucion a las necesidades del cliente.
               </Card.Text>
             </Card.Body>
           </Card>
