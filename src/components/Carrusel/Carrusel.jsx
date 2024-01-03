@@ -8,13 +8,14 @@ import BanderaMexico from "../../assets/imgs/bandera mexico 2.webp";
 import "./carrusel.scss";
 
 export const Carrusel = () => {
+  
   return (
     <Carousel fade id="/">
       <Carousel.Item>
         <img className="CarusselImg" src={Arcotecho1} alt="Techo curvo" />
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
-            <h2>Bienvenidos a TechosCurvos.Com</h2>
+            <h1>Bienvenidos a TechosCurvos.Com</h1>
             <p className="CarusselText">
               Especialistas en la fabricación de estructuras de acero.
             </p>
