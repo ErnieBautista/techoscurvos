@@ -27,10 +27,10 @@ export const FormEmail = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_hjzomsf",
-        "template_tq2ytbe",
+        "service_vy21bse",
+        "template_nyzp0gg",
         form.current,
-        "OnkN9x8VqVdVd9rDU"
+        "lO7ENI6qV6Civ3vur"
       )
       .then(
         (result) => {

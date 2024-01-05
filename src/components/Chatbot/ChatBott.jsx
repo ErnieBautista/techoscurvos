@@ -22,10 +22,10 @@ export const ChatBott = () => {
       };
       emailjs
         .send(
-          "service_hjzomsf",
-          "template_ep98gyp",
+          "service_vy21bse",
+          "template_jjpd82t",
           templateParams,
-          "OnkN9x8VqVdVd9rDU"
+          "lO7ENI6qV6Civ3vur"
         )
         .then(
           function(response) {
