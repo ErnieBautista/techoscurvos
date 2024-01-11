@@ -31,10 +31,10 @@ function NavBar() {
           <Nav className="me-auto"></Nav>
           <Nav>
             <Nav.Link>
-              <Link to="/">Inicio</Link>
+              <Link to="/">Laminas</Link>
             </Nav.Link>
             <Nav.Link eventKey={2} href="/#soluciones">
-              <HashLink smooth to="/#soluciones">Soluciones</HashLink>
+              <HashLink smooth to="/#soluciones">Soluciones L</HashLink>
             </Nav.Link>
             <NavDropdown
               className=" bg_techos_curvos"
