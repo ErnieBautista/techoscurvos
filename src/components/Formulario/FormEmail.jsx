@@ -84,7 +84,7 @@ export const FormEmail = () => {
       </Row>
       <Row className="pb-3">
         <Col>
-          <FloatingLabel controlId="floatingInputGrid" label="Claro">
+          <FloatingLabel controlId="floatingInputGrid" label="Ancho">
             <Form.Control
               placeholder="name@example.com"
               name="claro"
