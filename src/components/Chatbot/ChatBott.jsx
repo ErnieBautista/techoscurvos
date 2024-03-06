@@ -3,7 +3,7 @@ import ChatBot from "react-simple-chatbot";
 import emailjs from "@emailjs/browser";
 import avatar from "../../assets/imgs/Estructura metalica PBL.webp";
 import "./chatbot.scss";
-import { CustomHeader } from "../CustomHeader/CustomHeader";
+import { CustomHeader } from "../CustomHeader/CustomHeader.jsx";
 import { propTypes } from "react-bootstrap/esm/Image";
 import RemoveBG from "../../assets/transparente.png";
 
@@ -45,7 +45,7 @@ export const ChatBott = ({ abierto, setAbierto, handleChatBot }) => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setAbierto(true); // Después de 3 segundos, cambiar a true
-    }, 10000);
+    }, 7500);
 
     return () => clearTimeout(timeout); // Limpiar el temporizador
   }, []); // Se ejecuta solo una vez al montar el componente
@@ -66,9 +66,9 @@ export const ChatBott = ({ abierto, setAbierto, handleChatBot }) => {
         steps={[
           {
             id: "Saludo",
-            botDelay: "5000",
+            delay: 3500,
             message:
-              "Bienvenido a Techos Curvos. Me llamo Rosy y será un placer asistirte. ¿Cuál es tu nombre?",
+              "¡Bienvenido a TechosCurvos.Com! Me llamo Rosy y será un placer asistirte. ¿Cuál es tu nombre?",
             trigger: "inputNombre",
           },
           {
@@ -84,6 +84,7 @@ export const ChatBott = ({ abierto, setAbierto, handleChatBot }) => {
           },
           {
             id: "telefono",
+            delay: 5000,
             message:
               "Hola {previousValue}, un gusto en conocerte, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta, ¿Podrías dejarme tu teléfono completo?",
             trigger: "inputTelefono",
@@ -101,6 +102,7 @@ export const ChatBott = ({ abierto, setAbierto, handleChatBot }) => {
           },
           {
             id: "email",
+            delay: 3500,
             message: "¿Podrías dejarme tu correo electronico?",
             trigger: "inputEmail",
           },
@@ -117,6 +119,7 @@ export const ChatBott = ({ abierto, setAbierto, handleChatBot }) => {
           },
           {
             id: "horario",
+            delay: 3000,
             message: "¿En qué horario del día prefieres que te llamemos?",
             trigger: "inputHorario",
           },
@@ -133,6 +136,7 @@ export const ChatBott = ({ abierto, setAbierto, handleChatBot }) => {
           },
           {
             id: "consulta",
+            delay: 3500,
             message: "¿Quieres dejarme alguna consulta adicional?",
             trigger: "inputConsulta",
           },
@@ -150,7 +154,8 @@ export const ChatBott = ({ abierto, setAbierto, handleChatBot }) => {
           },
           {
             id: "despedida",
-            message: `Con la información que me has pasado un asesor se comunicará contigo a la brevedad.`,
+            delay: 4000,
+            message: `Con la información que me has proporcionado un asesor se comunicará contigo a la brevedad.`,
             end: true,
           },
         ]}
