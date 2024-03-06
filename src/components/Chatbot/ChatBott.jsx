@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
 import ChatBot from "react-simple-chatbot";
 import emailjs from "@emailjs/browser";
+import avatar from "../../assets/imgs/Estructura metalica PBL.webp";
 import "./chatbot.scss";
+import { CustomHeader } from "../CustomHeader/customHeader";
+
 
 export const ChatBott = () => {
   const [nombre, setNombre] = useState("");
@@ -9,8 +12,26 @@ export const ChatBott = () => {
   const [horario, setHorario] = useState("");
   const [consulta, setConsulta] = useState("");
   const [correo, setCorreo] = useState("");
+  const [autoOpen, setAutoOpen] = useState(false);
   const [send, setSend] = useState(false);
 
+  const [opened, setOpened] = useState(false);
+  const [delayedOpen, setDelayedOpen] = useState(false);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setDelayedOpen(true); // Después de 3 segundos, cambiar a true
+    }, 4000);
+
+    return () => clearTimeout(timeout); // Limpiar el temporizador
+  }, []); // Se ejecuta solo una vez al montar el componente
+
+  useEffect(() => {
+    if (delayedOpen) {
+      setOpened(true); // Abre el chatbot cuando delayedOpen sea true
+    }
+  }, [delayedOpen]); // Se ejecuta cuando delayedOpen cambia
+  
   useEffect(() => {
     if (send === true) {
       const templateParams = {
@@ -37,19 +58,25 @@ export const ChatBott = () => {
         );
     }
   }, [send]);
-
+  
   return (
     <ChatBot
       className="chatbot"
-      headerTitle="Techos Curvos"
+      headerComponent={<CustomHeader/>}
+      hideBotAvatar
+      hideUserAvatar
+      opened={opened}
+      toggleFloating={opened}
+      botAvatar={avatar}
       placeholder="Escribe un mensaje..."
       floating
       height="450px"
       steps={[
         {
           id: "Saludo",
+          botDelay: "5000",
           message:
-            "Bienvenido a Techos Curvos, será un placer asistirte, ¿Cuál es tu nombre?",
+            "Bienvenido a Techos Curvos. Me llamo Rosy y será un placer asistirte. ¿Cuál es tu nombre?",
           trigger: "inputNombre",
         },
         {
