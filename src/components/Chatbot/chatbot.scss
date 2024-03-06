@@ -1,3 +1,13 @@
 .chatbot{
   z-index: -100!important;
 }
+
+.iconChat{
+  color: green;
+  width: 110px;
+  position: fixed;
+  right: 9px;
+  bottom: 9px;
+  cursor: pointer;
+  z-index: 1000;
+}
