@@ -154,8 +154,8 @@ export const ChatBott = ({ abierto, setAbierto, handleChatBot }) => {
           },
           {
             id: "despedida",
-            delay: 4000,
-            message: `Con la información que me has proporcionado un asesor se comunicará contigo a la brevedad.`,
+            delay: 5500,
+            message: `Con la información que me has proporcionado un asesor se comunicará contigo en un periodo máximo de 1 día hábil. ¡Muchas gracias!`,
             end: true,
           },
         ]}
