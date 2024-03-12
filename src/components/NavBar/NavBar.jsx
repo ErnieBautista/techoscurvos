@@ -36,6 +36,9 @@ function NavBar() {
             <Nav.Link eventKey={2} href="/#soluciones">
               <HashLink smooth to="/#soluciones">Soluciones</HashLink>
             </Nav.Link>
+            <Nav.Link>
+              <Link to="galeria">Galeria</Link>
+            </Nav.Link>
             <NavDropdown
               className=" bg_techos_curvos"
               title="Nosotros"

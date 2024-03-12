@@ -5,6 +5,7 @@ import { TechosCurvos } from "./TechosCurvos";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { AvisoPrivacidad } from "./components/AvisoPrivacidad/AvisoPrivacidad";
 import { Home } from "./routes/Home";
+import { Galeria } from "./components/Galeria/Galeria";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: "aviso-de-privacidad",
         element: <AvisoPrivacidad />,
+      },
+      {
+        path: "galeria",
+        element: <Galeria />,
       },
     ],
   },
