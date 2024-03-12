@@ -49,6 +49,7 @@ export const FormEmail = () => {
         <Col>
           <FloatingLabel controlId="floatingInputGrid" label="Nombre completo ">
             <Form.Control
+              required
               placeholder="name@example.com"
               name="nombre"
               onChange={handleInputChange}
@@ -61,6 +62,7 @@ export const FormEmail = () => {
         <Col>
           <FloatingLabel controlId="floatingInputGrid" label="Teléfono">
             <Form.Control
+              required
               placeholder="name@example.com"
               name="telefono"
               onChange={handleInputChange}
@@ -74,6 +76,7 @@ export const FormEmail = () => {
             label="Correo electrónico"
           >
             <Form.Control
+              required
               type="email"
               placeholder="name@example.com"
               name="email"
@@ -86,6 +89,7 @@ export const FormEmail = () => {
         <Col>
           <FloatingLabel controlId="floatingInputGrid" label="Ancho">
             <Form.Control
+              required
               placeholder="name@example.com"
               name="claro"
               onChange={handleInputChange}
@@ -96,6 +100,7 @@ export const FormEmail = () => {
         <Col>
           <FloatingLabel controlId="floatingInputGrid" label="Profundidad">
             <Form.Control
+              required
               placeholder="name@example.com"
               name="profundidad"
               onChange={handleInputChange}
@@ -108,6 +113,7 @@ export const FormEmail = () => {
         <Col>
           <FloatingLabel controlId="floatingInputGrid" label="Municipio">
             <Form.Control
+              required
               placeholder="name@example.com"
               name="municipio"
               onChange={handleInputChange}
