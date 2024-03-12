@@ -16,7 +16,6 @@ export const Home = () => {
       <div className="containerCards">
         <Cards />
       </div>
-      <Galeria />
       <Nosotros />
       <Formulario />
       <Footer />
