@@ -52,7 +52,7 @@ import { Container, Row } from "react-bootstrap";
 export const Galeria = () => {
   return (
     <Container id="Galeria" className="d-inline justify-content-center mx-0">
-      <h2 className="galeriaTitulo">Galeria</h2>
+      <h2 className="my-0">Galeria</h2>
       <Tab.Container defaultActiveKey="#link1">
         <ListGroup className="listG" horizontal>
           <Container>
@@ -102,7 +102,7 @@ export const Galeria = () => {
         </ListGroup>
         <Tab.Content>
           <Tab.Pane eventKey="#link1" className="px-1">
-            <Carousel fade>
+            <Carousel className="my-5"fade>
               <Carousel.Item>
                 <img className="GaleriaImg img-fluid" src={ArcotechoBarda1} alt="" />
               </Carousel.Item>
@@ -142,7 +142,7 @@ export const Galeria = () => {
             </Carousel>
           </Tab.Pane>
           <Tab.Pane eventKey="#link2" className="px-1">
-            <Carousel fade>
+            <Carousel className="my-5" fade>
               <Carousel.Item>
                 <img className="GaleriaImg img-fluid" src={ArcotechoCol1} alt="" />
               </Carousel.Item>
@@ -182,7 +182,7 @@ export const Galeria = () => {
             </Carousel>
           </Tab.Pane>
           <Tab.Pane eventKey="#link3" className="px-1">
-            <Carousel fade>
+            <Carousel className="my-5" fade>
               <Carousel.Item>
                 <img className="GaleriaImg img-fluid" src={EstructuraMetalica} alt="" />
               </Carousel.Item>
@@ -207,7 +207,7 @@ export const Galeria = () => {
             </Carousel>
           </Tab.Pane>
           <Tab.Pane eventKey="#link4" className="px-1">
-            <Carousel fade>
+            <Carousel className="my-5" fade>
               <Carousel.Item>
                 <img className="GaleriaImg img-fluid" src={Timpano1} alt="" />
               </Carousel.Item>
