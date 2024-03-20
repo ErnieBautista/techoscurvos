@@ -10,7 +10,7 @@ import LaminaKR18 from "../../assets/imgs/Lamina KR-18.webp";
 import LaminaRN100 from "../../assets/imgs/Lamina RN-100.webp";
 import MaquinaGif from "../../assets/imgs/Maquina.gif";
 import { SiArchicad } from "react-icons/si";
-import { GiMetalBar } from "react-icons/gi";
+import { GiIBeam } from "react-icons/gi";
 import { AiFillCalculator } from "react-icons/ai";
 import { GiRolledCloth } from "react-icons/gi";
 import { GiFactoryArm } from "react-icons/gi";
@@ -42,7 +42,7 @@ export const Beneficios = () => {
                   <SiArchicad className="serviciosIcon" /> Arcotechos
                 </ListGroup.Item>
                 <ListGroup.Item variant="secondary" action href="#link2">
-                  <GiMetalBar className="serviciosIcon" /> Estructuras metálicas
+                  <GiIBeam className="serviciosIcon" /> Estructuras metálicas
                 </ListGroup.Item>
                 <ListGroup.Item variant="secondary" action href="#link3">
                   <AiFillCalculator className="serviciosIcon" /> Cálculos
