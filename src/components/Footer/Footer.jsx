@@ -27,7 +27,7 @@ export const Footer = () => {
           </Col>
           <Col className="text-center">
             <a
-              href="https://www.facebook.com/techoscurvoss"
+              href="https://www.facebook.com/share/656JHAztBpmhSL3z/?mibextid=qi2Omg"
               target=" _blank"
               className="px-1 fs-3"
             >
