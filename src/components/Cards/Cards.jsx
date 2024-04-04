@@ -16,7 +16,7 @@ export const Cards = () => {
         obras.
       </p>
       <div className="d-lg-flex justify-content-between mt-5 gap-4">
-          <Card className="col-lg-3 col-md-12 my-3">
+          <Card className="carta col-lg-3 col-md-12 my-3">
             <RiMedalLine className="cardIcons" />
             <Card.Body className="cardBody">
               <Card.Title className="fw-bold">Calidad</Card.Title>
@@ -27,7 +27,7 @@ export const Cards = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card className="col-lg-3 col-md-12 my-3">
+          <Card className="carta col-lg-3 col-md-12 my-3">
             <RiBriefcase5Fill className="cardIcons" />
             <Card.Body className="cardBody">
               <Card.Title className="fw-bold">Experiencia</Card.Title>
@@ -37,7 +37,7 @@ export const Cards = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card className="col-lg-3 col-md-12 my-3">
+          <Card className="carta col-lg-3 col-md-12 my-3">
             <RiRouteLine className="cardIcons" />
             <Card.Body className="cardBody">
               <Card.Title className="fw-bold">Adaptabilidad</Card.Title>
@@ -47,7 +47,7 @@ export const Cards = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card className="col-lg-3 col-md-12 my-3">
+          <Card className="carta col-lg-3 col-md-12 my-3">
             <RiMoneyDollarCircleFill className="cardIcons" />
             <Card.Body className="cardBody">
               <Card.Title className="fw-bold">Beneficios</Card.Title>

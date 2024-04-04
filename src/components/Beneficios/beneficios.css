@@ -63,6 +63,7 @@
 .BeneficiosImg {
   width: 100%;
   height: 35vh;
+  border-radius: 30px;
 }
 
 .BeneficiosImg2 {
