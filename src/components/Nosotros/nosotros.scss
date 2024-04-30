@@ -4,7 +4,13 @@
 }
 
 .Nosotros {
-  background-color: #962424;
+  background: rgb(41, 12, 12);
+  background: linear-gradient(
+    90deg,
+    rgba(41, 12, 12, 1) 0%,
+    rgba(150, 36, 36, 1) 50%,
+    rgba(173, 61, 61, 1) 100%
+  );
   color: white;
   text-align: center;
 }
@@ -27,16 +33,16 @@
 
 .nosotrosValores {
   background: white;
-    border-radius: 200px;
-    color: #962424;
-    height: 200px;
-    font-weight: bold;
-    width: 200px;
-    display: table;
-    margin: 20px auto;
+  border-radius: 200px;
+  color: #962424;
+  height: 200px;
+  font-weight: bold;
+  width: 200px;
+  display: table;
+  margin: 20px auto;
 }
 
-.valores{
+.valores {
   vertical-align: middle;
-    display: table-cell;
+  display: table-cell;
 }
