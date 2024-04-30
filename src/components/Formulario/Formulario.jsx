@@ -7,6 +7,8 @@ import { FaPhone } from "react-icons/fa";
 import { RiMailUnreadFill } from "react-icons/ri";
 import "./formulario.scss";
 import { FormEmail } from "./FormEmail";
+import { BsFillExclamationCircleFill } from "react-icons/bs";
+
 
 export const Formulario = () => {
   return (
@@ -17,6 +19,9 @@ export const Formulario = () => {
           <h3 className="pb-4">
             Pide tu cotización hoy y la recibes en 1 día hábil.
           </h3>
+          <p>
+          <BsFillExclamationCircleFill /> Mínimo para Cotizar 150 m²
+          </p>
           <FormEmail />
         </Col>
         <Col lg="5" xs="12" className="pt-5">
